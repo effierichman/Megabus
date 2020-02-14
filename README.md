@@ -6,38 +6,27 @@
 
 ## Project Description
 
-A redesigned megabus app that highlights a help funtion so the user can reach out to customer support and navigate their trip information in an easy manner  
+A redesigned megabus app that highlights a help funtion so the user can  reach out to customer support, track my bus, and get help in an easy manner. The user will be prompted to book a trip on the home back with a user friendly input propt
 
 ## Wireframes
 
-![alt text](https://res.cloudinary.com/rachelml/image/upload/v1581704012/Screen_Shot_2020-02-14_at_1.12.22_PM_xchmfj.png)
-![alt text](https://res.cloudinary.com/rachelml/image/upload/v1581704018/Screen_Shot_2020-02-14_at_1.12.09_PM_v7brrh.png)
-Change view to Book and Change to edit 
-![alt text](https://res.cloudinary.com/rachelml/image/upload/v1581704292/Screen_Shot_2020-02-14_at_1.17.58_PM_lm3zcm.png)
+GENERAL MVP - updated workflow 
 
-
-My trip list 
-![alt text](https://res.cloudinary.com/rachelml/image/upload/v1581704422/Screen_Shot_2020-02-14_at_1.20.07_PM_il7jr9.png)
-![alt text](https://res.cloudinary.com/rachelml/image/upload/v1581704675/Screen_Shot_2020-02-14_at_1.24.16_PM_u9klh9.png)
-![alt text](https://res.cloudinary.com/rachelml/image/upload/v1581704753/Screen_Shot_2020-02-14_at_1.25.36_PM_vx86e9.png)
-
-![alt text](https://res.cloudinary.com/rachelml/image/upload/v1581705452/Screen_Shot_2020-02-14_at_1.37.02_PM_dvagex.png)
-
-
-
+![alt text](https://res.cloudinary.com/rachelml/image/upload/v1581712500/Untitled_Diagram_b8be68.png)
 
 
 
 ## MVP
-- User Authentication
-- Navbar with "track my bus" and "email Megabus" links
-- "i can help" button on main page that links to "track my bus" and "email Megabus" components 
-- Book Now with "to" "from" leaving returning input field and "find ticket" button 
+- Navbar with working "track my bus" and non functional "email Megabus" "go green" and "help" links
+- "i can help" button on main page that links to "track my bus" components 
+- Book Now with "to" "from" "leaving" "returning" input field and "find ticket" button 
 - List trips component based on user input allowing user to book a trip 
-- my trips component listing users selected trips alowing user to click on trip to link to map component with trip detials 
+- my trips component listing users selected trips alowing user to click on trip to link to map component
+- map component with map and trip detials 
 
 
 ## Post-MVP
+- User Authentication
 - Notifications 
 - Go green 
 - Help and frequently asked questions 
@@ -51,19 +40,18 @@ My trip list
 
 ## Endpoints
 
-	- Index route returning an array of all Users and nested 'Likes'
+USER AUTH post-MVP functionality 
 - GET `/api/users/:id`
-	- Show route for a user requested by ID
 - POST `/api/users`
-	- Create route for a new user
 - PUT `/api/users/:id`
 - DELETE `/api/users/:id`
+
+MY TRIPs component CRUD functionality 
 - GET `/api/trips`
-- GET `/api/trips/:tripid`
-- GET `/api/trips/users/:id/:tripid`
-- PUT `/api/trips/users/:id/:tripid`
-- DELETE `/api/trips/users/:id/:tripid`
 - POST `/api/trips
+- GET `/api/trips/:tripid`
+- PUT `/api/trips/:tripid`
+- DELETE `/api/trips/:tripid`
 
 Sample JSON from GET `/api/users`
 
@@ -132,7 +120,7 @@ Estimate the amount of time your team expects to spend on each area of your app
 | connecting front and backend | 5 hrs |  |
 | Server | 4hrs |  |
 | pseudocoding | 4hrs |  |
-| Total | 9.5hrs |  |
+| Total | hrs |  |
 
 _Be sure to document the actual time spent as you progress_
 
@@ -144,7 +132,6 @@ _Be sure to document the actual time spent as you progress_
 - morgan
 - passport 
 - pg sequelize
-- 
 
 ## Expected Issues
 routing
