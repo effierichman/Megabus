@@ -1,4 +1,5 @@
-const { User } = require('../models')
+const { User, Trip} = require('../models')
+
 
 const createUser = async (req, res) => {
   try {
@@ -19,6 +20,38 @@ const getAllUsers = async (req, res) => {
     return res.status(500).send(error.message)
   }
 }
+
+// get all trips data
+
+const getAllTrips =  async(req, res)=>{
+  try{
+    const trips = await Trip.findAll()
+    return res.status(200).json({trips})
+  } catch (error){
+    return res.status(500).send(error.message)
+  }
+}
+
+const displayTripData= async(req, res)=>{
+  try{
+  const {departure_city}=  req.params
+  const {destination_city}= req.params
+  const {departure_time}= req.params
+  console.log(req.params.id)
+  const [selectedTrip] = await Trip.findAll({where:{
+    // departure_city: departure_city,
+    destination_city: destination_city,
+    // departure_time: departure_time
+  }})
+  if(selectedTrip){
+    return res.status(200).json({user});
+  }
+  return res.status(404).send ('Not trips match your criteria');
+  } catch (error){
+    return res.status(500).send(error.message);
+  }
+}
+
 
 const updateUser = async (req, res) => {
   try {
@@ -70,5 +103,7 @@ module.exports = {
     getAllUsers,
     updateUser,
     deleteUser,
-    getUserById
+    getUserById,
+    getAllTrips,
+    displayTripData
   }

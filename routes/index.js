@@ -10,6 +10,7 @@ router.get('/users/:id', controllers.getUserById)
 router.put('/users/:id', controllers.updateUser)
 router.delete('/users/:id', controllers.deleteUser)
 
-
+router.get('/trips', controllers.getAllTrips)
+router.get('trips/:destination_city', controllers.displayTripData)
 
 module.exports = router
