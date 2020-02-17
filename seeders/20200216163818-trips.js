@@ -20,7 +20,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '11:00am',
       arrival_time: '3:00pm',
       travel_date_begin: 'Wed 2/26',
@@ -36,7 +36,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '1:00pm',
       arrival_time: '5:00pm',
       travel_date_begin: 'Wed 2/26',
@@ -52,7 +52,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '3:00pm',
       arrival_time: '7:00pm',
       travel_date_begin: 'Wed 2/26',
@@ -68,7 +68,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '6:00pm',
       arrival_time: '10:00pm',
       travel_date_begin: 'Wed 2/26',
@@ -100,7 +100,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '11:00am',
       arrival_time: '3:00pm',
       travel_date_begin: 'Thurs 2/27',
@@ -116,7 +116,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '1:00pm',
       arrival_time: '5:00pm',
       travel_date_begin: 'Thurs 2/27',
@@ -132,7 +132,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '3:00pm',
       arrival_time: '7:00pm',
       travel_date_begin: 'Thurs 2/27',
@@ -148,7 +148,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '6:00pm',
       arrival_time: '10:00pm',
       travel_date_begin: 'Thurs 2/27',
@@ -180,7 +180,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '11:00am',
       arrival_time: '3:00pm',
       travel_date_begin: 'Fri 2/28',
@@ -196,7 +196,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '1:00pm',
       arrival_time: '5:00pm',
       travel_date_begin: 'Fri 2/28',
@@ -212,7 +212,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '3:00pm',
       arrival_time: '7:00pm',
       travel_date_begin: 'Fri 2/28',
@@ -228,7 +228,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '6:00pm',
       arrival_time: '10:00pm',
       travel_date_begin: 'Fri 2/28',
@@ -260,7 +260,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '11:00am',
       arrival_time: '3:00pm',
       travel_date_begin: 'Sat 2/29',
@@ -276,7 +276,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '1:00pm',
       arrival_time: '5:00pm',
       travel_date_begin: 'Sat 2/29',
@@ -292,7 +292,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '3:00pm',
       arrival_time: '7:00pm',
       travel_date_begin: 'Sat 2/29',
@@ -308,7 +308,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '6:00pm',
       arrival_time: '10:00pm',
       travel_date_begin: 'Sat 2/29',
@@ -340,7 +340,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '11:00am',
       arrival_time: '3:00pm',
       travel_date_begin: 'Sun 3/1',
@@ -356,7 +356,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '1:00pm',
       arrival_time: '5:00pm',
       travel_date_begin: 'Sun 3/1',
@@ -372,7 +372,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '3:00pm',
       arrival_time: '7:00pm',
       travel_date_begin: 'Sun 3/1',
@@ -388,7 +388,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '6:00pm',
       arrival_time: '10:00pm',
       travel_date_begin: 'Sun 3/1',
@@ -420,7 +420,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '11:00am',
       arrival_time: '3:00pm',
       travel_date_begin: 'Mon 3/2',
@@ -436,7 +436,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '1:00pm',
       arrival_time: '5:00pm',
       travel_date_begin: 'Mon 3/2',
@@ -452,7 +452,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '3:00pm',
       arrival_time: '7:00pm',
       travel_date_begin: 'Mon 3/2',
@@ -468,7 +468,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '6:00pm',
       arrival_time: '10:00pm',
       travel_date_begin: 'Mon 3/2',
@@ -500,7 +500,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '11:00am',
       arrival_time: '3:00pm',
       travel_date_begin: 'Tue 3/3',
@@ -516,7 +516,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '1:00pm',
       arrival_time: '5:00pm',
       travel_date_begin: 'Tue 3/3',
@@ -532,7 +532,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '3:00pm',
       arrival_time: '7:00pm',
       travel_date_begin: 'Tue 3/3',
@@ -548,7 +548,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '6:00pm',
       arrival_time: '10:00pm',
       travel_date_begin: 'Tue 3/3',
@@ -580,7 +580,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '11:00am',
       arrival_time: '3:00pm',
       travel_date_begin: 'Wed 3/4',
@@ -596,7 +596,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '1:00pm',
       arrival_time: '5:00pm',
       travel_date_begin: 'Wed 3/4',
@@ -612,7 +612,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '3:00pm',
       arrival_time: '7:00pm',
       travel_date_begin: 'Wed 3/4',
@@ -628,7 +628,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '6:00pm',
       arrival_time: '10:00pm',
       travel_date_begin: 'Wed 3/4',
@@ -660,7 +660,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '11:00am',
       arrival_time: '3:00pm',
       travel_date_begin: 'Thurs 3/5',
@@ -676,7 +676,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '1:00pm',
       arrival_time: '5:00pm',
       travel_date_begin: 'Thurs 3/5',
@@ -692,7 +692,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '3:00pm',
       arrival_time: '7:00pm',
       travel_date_begin: 'Thurs 3/5',
@@ -708,7 +708,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '6:00pm',
       arrival_time: '10:00pm',
       travel_date_begin: 'Thurs 3/5',
@@ -740,7 +740,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '11:00am',
       arrival_time: '3:00pm',
       travel_date_begin: 'Fri 3/6',
@@ -756,7 +756,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '1:00pm',
       arrival_time: '5:00pm',
       travel_date_begin: 'Fri 3/6',
@@ -772,7 +772,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '3:00pm',
       arrival_time: '7:00pm',
       travel_date_begin: 'Fri 3/6',
@@ -788,7 +788,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '6:00pm',
       arrival_time: '10:00pm',
       travel_date_begin: 'Fri 3/6',
@@ -820,7 +820,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '11:00am',
       arrival_time: '3:00pm',
       travel_date_begin: 'Sat 3/7',
@@ -836,7 +836,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '1:00pm',
       arrival_time: '5:00pm',
       travel_date_begin: 'Sat 3/7',
@@ -852,7 +852,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '3:00pm',
       arrival_time: '7:00pm',
       travel_date_begin: 'Sat 3/7',
@@ -868,7 +868,7 @@ module.exports = {
     {
       departure_city: 'Boston',
       destination_city: 'NYC',
-      travel_time: '4 hr,
+      travel_time: '4 hr',
       departure_time: '6:00pm',
       arrival_time: '10:00pm',
       travel_date_begin: 'Sat 3/7',
