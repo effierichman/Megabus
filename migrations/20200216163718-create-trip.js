@@ -29,6 +29,25 @@ module.exports = {
       travel_date_end: {
         type: Sequelize.STRING
       },
+      paid: {
+        type: Sequelize.BOOLEAN
+      },
+      departure_long: {
+        type: Sequelize.FLOAT
+      },
+      departure_latt: {
+        type: Sequelize.FLOAT
+
+      },
+      arrival_long: {
+        type: Sequelize.FLOAT
+
+      },
+      arrival_latt: {
+        type: Sequelize.FLOAT
+
+      },
+
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
