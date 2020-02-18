@@ -36,12 +36,12 @@ const displayTripData= async(req, res)=>{
   try{
   const {departure_city}=  req.params
   const {destination_city}= req.params
-  const {departure_time}= req.params
+  const {travel_date_begin}= req.params
   console.log(req.params.id)
   const selectedTrip = await Trip.findAll({where:{
     departure_city: departure_city,
     destination_city: destination_city,
-    departure_time: departure_time
+    travel_date_begin: travel_date_begin
   }})
   if(selectedTrip){
     return res.status(200).json({selectedTrip});

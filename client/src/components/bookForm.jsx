@@ -9,7 +9,8 @@ function BookForm() {
           <label className="FROM">FROM</label>
          <select>
              <option value="">Pick a city or town</option>
-             <option value="boston">Boston</option>
+             <option value="boston">
+                Boston</option>
              <option value="nyc">New York City</option>
              <option value="trenton">Trenton</option>
              <option value="hartford">Hartford</option>
