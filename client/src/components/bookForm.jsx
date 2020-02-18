@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Route, withRouter } from 'react-router-dom'
 
+export default function BookForm(props) {
 
-function BookForm() {
-    return (
+  function changeForm(e){
+    props.handleChange(e)
+  }
+
+  function handleSubmit(e){
+    e.preventDefault()
+    props.handleSubmit()
+  }
+return (
         <form>
           <h2 className="Book-Now">Book Now!</h2>
           <label className="FROM">FROM</label>
-         <select id= "departure">
+         <select id= "departure" onChange={changeForm} >
              <option value="">Pick a city or town</option>
              <option value="boston">
                 Boston</option>
@@ -16,7 +24,7 @@ function BookForm() {
              <option value="hartford">Hartford</option>
          </select>
           <label className="FROM">TO</label>
-          <select id = "destination">
+          <select id = "destination" onChange={changeForm}>
             <option value="">Pick a city or town</option>
              <option value="boston">Boston</option>
              <option value="nyc">New York City</option>
@@ -24,7 +32,7 @@ function BookForm() {
              <option value="hartford">Hartford</option>
          </select>
           <label className="FROM">LEAVING</label>
-          <select id= "date" value = {this.state}>
+          <select id= "date" onChange={changeForm}>
              <option value="">Pick a date</option>
              <option value="wed-2-26">2/26</option>
              <option value="thurs-2-27">2/27</option>
@@ -38,12 +46,10 @@ function BookForm() {
              <option value="fri-3-6">3/6</option>
              <option value="sat-3-7">3/7</option>
          </select>
-          <button className="Button_Off">Find Tickets</button>
+          <button onClick={handleSubmit} type="submit"  className="Button_Off">Find Tickets</button>
   
         </form>
-  
+   
     );
-  }
-  
-  export default BookForm;
+}
   
