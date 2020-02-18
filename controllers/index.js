@@ -38,13 +38,13 @@ const displayTripData= async(req, res)=>{
   const {destination_city}= req.params
   const {departure_time}= req.params
   console.log(req.params.id)
-  const [selectedTrip] = await Trip.findAll({where:{
-    // departure_city: departure_city,
+  const selectedTrip = await Trip.findAll({where:{
+    departure_city: departure_city,
     destination_city: destination_city,
-    // departure_time: departure_time
+    departure_time: departure_time
   }})
   if(selectedTrip){
-    return res.status(200).json({user});
+    return res.status(200).json({selectedTrip});
   }
   return res.status(404).send ('Not trips match your criteria');
   } catch (error){

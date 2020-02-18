@@ -15,9 +15,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -31,9 +29,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -47,9 +43,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -63,9 +57,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -79,9 +71,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -95,9 +85,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -111,9 +99,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -127,9 +113,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -143,9 +127,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -159,9 +141,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -175,9 +155,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -191,9 +169,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -207,9 +183,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -223,9 +197,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -239,9 +211,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -255,9 +225,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -271,9 +239,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -287,9 +253,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -303,9 +267,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -319,9 +281,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -335,9 +295,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -351,9 +309,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -367,9 +323,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -383,9 +337,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -399,9 +351,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -415,9 +365,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -431,9 +379,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -447,9 +393,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -463,9 +407,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -479,9 +421,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -495,9 +435,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -511,9 +449,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -527,9 +463,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -543,9 +477,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -559,9 +491,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -575,9 +505,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -591,9 +519,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -607,9 +533,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -623,9 +547,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -639,9 +561,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -655,9 +575,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -671,9 +589,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -687,9 +603,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -703,9 +617,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -719,9 +631,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -735,9 +645,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -751,9 +659,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -767,9 +673,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -783,9 +687,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -799,9 +701,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -815,9 +715,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -831,9 +729,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -847,9 +743,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -863,9 +757,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'nyc',
@@ -879,9 +771,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -895,9 +785,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -911,9 +799,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -927,9 +813,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -943,9 +827,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -959,9 +841,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -975,9 +855,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -991,9 +869,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1007,9 +883,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1023,9 +897,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1039,9 +911,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1055,9 +925,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1071,9 +939,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1087,9 +953,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1103,9 +967,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1119,9 +981,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1135,9 +995,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1151,9 +1009,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1167,9 +1023,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1183,9 +1037,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1199,9 +1051,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1215,9 +1065,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1231,9 +1079,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1247,9 +1093,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdat: new date(),
-        updatedat: new date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1263,9 +1107,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1279,9 +1121,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1295,9 +1135,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1311,9 +1149,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1327,9 +1163,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1343,9 +1177,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1359,9 +1191,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1375,9 +1205,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1391,9 +1219,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1407,9 +1233,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1423,9 +1247,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1439,9 +1261,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1455,9 +1275,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1471,9 +1289,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1487,9 +1303,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1503,9 +1317,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1519,9 +1331,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1535,9 +1345,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1551,9 +1359,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1567,9 +1373,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1583,9 +1387,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1599,9 +1401,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1615,9 +1415,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1631,9 +1429,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1647,9 +1443,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1663,9 +1457,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1679,9 +1471,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1695,9 +1485,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1711,9 +1499,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1727,9 +1513,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1743,9 +1527,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -1759,9 +1541,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -1775,9 +1555,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -1791,9 +1569,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -1807,9 +1583,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -1823,9 +1597,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -1839,9 +1611,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -1855,9 +1625,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -1871,9 +1639,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -1887,9 +1653,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -1903,9 +1667,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -1919,9 +1681,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -1935,9 +1695,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -1951,9 +1709,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -1967,9 +1723,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -1983,9 +1737,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -1999,9 +1751,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2015,9 +1765,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2031,9 +1779,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2047,9 +1793,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -2063,9 +1807,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2079,9 +1821,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2095,9 +1835,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2111,9 +1849,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2127,9 +1863,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2143,9 +1877,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2159,9 +1891,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2175,9 +1905,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2191,9 +1919,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2207,9 +1933,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2223,9 +1947,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2239,9 +1961,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2255,9 +1975,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2271,9 +1989,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2287,9 +2003,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2303,9 +2017,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2319,9 +2031,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2335,9 +2045,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2351,9 +2059,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2367,9 +2073,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2383,9 +2087,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2399,9 +2101,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2415,9 +2115,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2431,9 +2129,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2447,9 +2143,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2463,9 +2157,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2479,9 +2171,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2495,9 +2185,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2511,9 +2199,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2527,9 +2213,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'boston',
         destination_city: 'trenton',
@@ -2543,9 +2227,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2559,9 +2241,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2575,9 +2255,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2591,9 +2269,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2607,9 +2283,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2623,9 +2297,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'boston',
@@ -2639,9 +2311,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -71.0275,
         arrival_latt: 42.2352,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2655,9 +2325,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2671,9 +2339,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2687,9 +2353,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2703,9 +2367,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2719,9 +2381,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2735,9 +2395,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2751,9 +2409,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2767,9 +2423,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2783,9 +2437,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2799,9 +2451,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2815,9 +2465,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2831,9 +2479,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2847,9 +2493,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2863,9 +2507,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2879,9 +2521,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2895,9 +2535,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2911,9 +2549,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2927,9 +2563,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -2943,9 +2577,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2959,9 +2591,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2975,9 +2605,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -2991,9 +2619,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3007,9 +2633,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3023,9 +2647,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3039,9 +2661,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3055,9 +2675,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3071,9 +2689,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3087,9 +2703,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3103,9 +2717,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3119,9 +2731,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3135,9 +2745,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3151,9 +2759,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3167,9 +2773,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3183,9 +2787,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3199,9 +2801,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3215,9 +2815,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3231,9 +2829,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3247,9 +2843,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3263,9 +2857,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3279,9 +2871,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3295,9 +2885,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3311,9 +2899,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3327,9 +2913,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3343,9 +2927,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3359,9 +2941,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3375,9 +2955,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3391,9 +2969,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3407,9 +2983,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3423,9 +2997,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3439,9 +3011,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3455,9 +3025,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3471,9 +3039,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3487,9 +3053,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3503,9 +3067,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3519,9 +3081,7 @@ module.exports = {
         departure_latt: 40.221741,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3535,9 +3095,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3551,9 +3109,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3567,9 +3123,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3583,9 +3137,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3599,9 +3151,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3615,9 +3165,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3631,9 +3179,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3647,9 +3193,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3663,9 +3207,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3679,9 +3221,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3695,9 +3235,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3711,9 +3249,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3727,9 +3263,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3743,9 +3277,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3759,9 +3291,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3775,9 +3305,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3791,9 +3319,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3807,9 +3333,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -3823,9 +3347,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3839,9 +3361,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3855,9 +3375,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3871,9 +3389,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3887,9 +3403,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3903,9 +3417,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3919,9 +3431,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3935,9 +3445,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3951,9 +3459,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3967,9 +3473,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3983,9 +3487,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -3999,9 +3501,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4015,9 +3515,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4031,9 +3529,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4047,9 +3543,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4063,9 +3557,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4079,9 +3571,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4095,9 +3585,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4111,9 +3599,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4127,9 +3613,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4143,9 +3627,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4159,9 +3641,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4175,9 +3655,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4191,9 +3669,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4207,9 +3683,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4223,9 +3697,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4239,9 +3711,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4255,9 +3725,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4271,9 +3739,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4287,9 +3753,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'trenton',
         destination_city: 'nyc',
@@ -4303,9 +3767,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4319,9 +3781,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4335,9 +3795,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4351,9 +3809,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4367,9 +3823,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4383,9 +3837,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'trenton',
@@ -4399,9 +3851,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -74.756138,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4415,9 +3865,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4431,9 +3879,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4447,9 +3893,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4463,9 +3907,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4479,9 +3921,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4495,9 +3935,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4511,9 +3949,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4527,9 +3963,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4543,9 +3977,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 40.221741,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4559,9 +3991,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4575,9 +4005,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4591,9 +4019,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4607,9 +4033,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4623,9 +4047,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4639,9 +4061,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4655,9 +4075,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4671,9 +4089,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4687,9 +4103,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'hartford',
         destination_city: 'nyc',
@@ -4703,9 +4117,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4719,9 +4131,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4735,9 +4145,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4751,9 +4159,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4767,9 +4173,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4783,9 +4187,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4799,9 +4201,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4815,9 +4215,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4831,9 +4229,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4847,9 +4243,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4863,9 +4257,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4879,9 +4271,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4895,9 +4285,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4911,9 +4299,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4927,9 +4313,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4943,9 +4327,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4959,9 +4341,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4975,9 +4355,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -4991,9 +4369,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5007,9 +4383,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5023,9 +4397,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5039,9 +4411,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5055,9 +4425,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5071,9 +4439,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5087,9 +4453,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5103,9 +4467,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5119,9 +4481,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5135,9 +4495,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5151,9 +4509,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5167,9 +4523,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'hartford',
         destination_city: 'nyc',
@@ -5183,9 +4537,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5199,9 +4551,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5215,9 +4565,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5231,9 +4579,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5247,9 +4593,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5263,9 +4607,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
+        },
       {
         departure_city: 'nyc',
         destination_city: 'hartford',
@@ -5279,9 +4621,7 @@ module.exports = {
         departure_latt: 40.7128,
         arrival_long: -72.677,
         arrival_latt: 41.767,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      }
+        }
     ], {});
   },
 
