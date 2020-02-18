@@ -26,6 +26,17 @@ function BookForm() {
           <label className="FROM">LEAVING</label>
           <select>
              <option value="">Pick a date</option>
+             <option value="wed-2-26">2/26</option>
+             <option value="thurs-2-27">2/27</option>
+             <option value="fri-2-28">2/28</option>
+             <option value="sat-2-29">2/29</option>
+             <option value="sun-3-1">3/1</option>
+             <option value="mon-3-2">3/2</option>
+             <option value="tue-3-3">3/3</option>
+             <option value="wed-3-4">3/4</option>
+             <option value="thurs-3-5">3/5</option>
+             <option value="fri-3-6">3/6</option>
+             <option value="sat-3-7">3/7</option>
          </select>
           <button className="Button_Off">Find Tickets</button>
   
