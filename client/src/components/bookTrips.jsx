@@ -36,6 +36,13 @@ handleChange = async(e)=>{
       isLoading: true,
       departure_city: this.state.,
 
+  async componentDidMount() {
+    try {
+      const response = await axios(`http://localhost:3000/trips/boston/nyc/wed-2-26`)
+      this.setState({ trips: response.data.selectedTrip })
+      console.log(response.data)
+    } catch (err) {
+      console.error(err)
     }
     let trip = await getTripData();
 

@@ -11,6 +11,6 @@ router.put('/users/:id', controllers.updateUser)
 router.delete('/users/:id', controllers.deleteUser)
 
 router.get('/trips', controllers.getAllTrips)
-router.get('/trips/:departure_city/:destination_city/:departure_time', controllers.displayTripData)
+router.get('/trips/:departure_city/:destination_city/:travel_date_begin', controllers.displayTripData)
 
 module.exports = router

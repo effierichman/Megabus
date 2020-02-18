@@ -1,7 +1,7 @@
 
 
 .megabuscom {
-  padding-top: 20px;
+  padding-top: 30px;
   font-family: Nexa;
   font-size: 24px;
   font-weight: bold;
@@ -20,6 +20,20 @@
   padding-top: 0px;
   height: 91px;
   background-color: #011679;
+}
+
+.helper-container{
+  margin-top: 20px;
+  display: flex;
+  float: right;
+  margin-right: 20px;
+
+}
+
+
+.helper {
+  width: 147px;
+  height: 50px;
 }
 
 select {
@@ -61,6 +75,7 @@ form {
   object-fit: contain;
   background-color: #f9be2c;
   box-shadow: 3px 2px 4px 0 black;
+  margin-top: 20px;
 }
 
 select {
@@ -86,4 +101,13 @@ select {
     line-height: normal;
     letter-spacing: normal;
     color: black;
+  }
+
+  .Rectangle {
+    width: 321px;
+    height: 300px;
+    object-fit: contain;
+    border: solid 2px #011679;
+    margin: auto;
+    margin-top: 100px;
   }
