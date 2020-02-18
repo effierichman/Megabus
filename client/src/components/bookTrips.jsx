@@ -12,9 +12,9 @@ class BookTrips extends Component {
 
   async componentDidMount() {
     try {
-      const response = await axios(`http://localhost:3000/trips/boston/nyc/11:00am`)
+      const response = await axios(`http://localhost:3000/trips/boston/nyc/wed-2-26`)
       this.setState({ trips: response.data.selectedTrip })
-      console.log(response.data.selectedTrip )
+      console.log(response.data)
     } catch (err) {
       console.error(err)
     }
