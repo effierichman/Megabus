@@ -7,16 +7,16 @@ function BookForm() {
         <form>
           <h2 className="Book-Now">Book Now!</h2>
           <label className="FROM">FROM</label>
-         <select>
+         <select id= "departure">
              <option value="">Pick a city or town</option>
              <option value="boston">
                 Boston</option>
              <option value="nyc">New York City</option>
              <option value="trenton">Trenton</option>
              <option value="hartford">Hartford</option>
-         </select >
+         </select>
           <label className="FROM">TO</label>
-          <select>
+          <select id = "destination">
             <option value="">Pick a city or town</option>
              <option value="boston">Boston</option>
              <option value="nyc">New York City</option>
@@ -24,7 +24,7 @@ function BookForm() {
              <option value="hartford">Hartford</option>
          </select>
           <label className="FROM">LEAVING</label>
-          <select>
+          <select id= "date" value = {this.state}>
              <option value="">Pick a date</option>
              <option value="wed-2-26">2/26</option>
              <option value="thurs-2-27">2/27</option>
