@@ -15,6 +15,7 @@ module.exports = {
         departure_latt: 42.2352,
         arrival_long: -74.006,
         arrival_latt: 40.7128,
+        
         },
       {
         departure_city: 'boston',
