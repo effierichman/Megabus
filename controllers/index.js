@@ -34,19 +34,20 @@ const getAllTrips =  async(req, res)=>{
 
 const displayTripData= async(req, res)=>{
   try{
-  const {departure_city}=  req.params
+  // const {departure_city}=  req.params
   const {destination_city}= req.params
-  const {departure_time}= req.params
-  console.log(req.params.id)
-  const [selectedTrip] = await Trip.findAll({where:{
-    // departure_city: departure_city,
+  // const {departure_time}= req.params
+  console.log(req.params)
+  const selectedTrips = await Trip.findAll({
+    where:{
+    departure_city: departure_city,
     destination_city: destination_city,
     // departure_time: departure_time
   }})
-  if(selectedTrip){
-    return res.status(200).json({user});
+  if(selectedTrips){
+    return res.status(200).json(selectedTrips);
   }
-  return res.status(404).send ('Not trips match your criteria');
+  return res.status(404).send ('No trips match your criteria');
   } catch (error){
     return res.status(500).send(error.message);
   }
