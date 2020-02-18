@@ -1,80 +1,82 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import { getTripData, getAllTrips } from '../../services/api-helper'
+// import { getTripData, getAllTrips } from '../api-helper'
+import BookForm from './bookForm'
+import { Redirect } from 'react-router-dom'
 
 class BookTrips extends Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      trips: [],
-      searchValue: [],
-      departure_city: [],
-      destination_city: [],
-      travel_date_begin: []
+        trips: [],
+      departure: '',
+      destination: '',
+      date: '',
+      submitted: false
 
     }
-    this.handleChange
   }
 
   // create handlechange= send state info down to bookform.js which will send it back up 
-handleChange = async(e)=>{
-  let valueDepart= e.target.valueDepart;
-  let valueDestination= e.target.valueDestination;
-  let valueDate= e.target.target
-  this.setState({
-    departure_city: valueDepart,
-    destination_city: valueDestination,
-    travel_date_begin: valueDate
-  })
+handleChange = (e) =>{
+    const key = e.target.id
+    const value = e.target.value
+    this.setState({
+     [key]: value  
+    })
+//   let valueDepart= e.target.valueDepart;
+//   let valueDestination= e.target.valueDestination;
+//   let valueDate= e.target.target.valueData
+//   this.setState({
+//     departure_city: valueDepart,
+//     destination_city: valueDestination,
+//     travel_date_begin: valueDate
+//   })
 }
 
-  handleClick = async(e)=>{
-    e.preventDefault()
-
-    this.setState={
-      isLoading: true,
-      departure_city: this.state.,
-
-  async componentDidMount() {
-    try {
-      const response = await axios(`http://localhost:3000/trips/boston/nyc/wed-2-26`)
-      this.setState({ trips: response.data.selectedTrip })
-      console.log(response.data)
-    } catch (err) {
-      console.error(err)
-    }
-    let trip = await getTripData();
-
-  }
 
 
-  async componentDidMount() {
-      const response = await getAllTrips()
-      this.setState({
-        trips: response.data
-      })
+ handleClick = async ()=>{
+    console.log("test")
+    this.setState({
+        submitted: true
+    })
+    // try {
+    //      const response = await axios(`http://localhost:3000/trips/${this.state.departure}/${this.state.destination}/${this.state.date}`)
+    //     this.setState({ trips: response.data.selectedTrip })
+    //     console.log(this.state.trips)
+    //   } catch (err) {
+    //     console.error(err)
+    //   }
 
-    //   this.setState({ trips: response.data.selectedTrip })
-    //   console.log(response.data.selectedTrip )
-    // } catch (err) {
-    //   console.error(err)
-  }
+    // this.setState ({
+    //   isLoading: true,
+    //   departure_city: this.state
+    // })
+}
 
+ 
   render() {
-    const trips = this.state.trips.map(trip => (
-      <div key={trip.id}>
-        <h2>
-          {trip.departure_city} {trip.destination_city}
+      console.log(this.state)
+    // const trips =this.state.trips && this.state.trips.map(trip => (
+    //   <div key={trip.id}>
+    //     <h2>
+    //       {trip.departure_city} {trip.destination_city}
           
-        </h2>
-      </div>
-    ))
+    //     </h2>
+    //   </div>
+    // ))
+
+    if(this.state.submitted){
+        return <Redirect to={{pathname:'/des', state: this.state}} />
+    }
 
     return (
         <div>
-        <h4>Trips</h4>
-        <ul>{trips}</ul>
+        <h4>Render selected trips here</h4>
+        {/* <ul>{trips}</ul> */}
+        <BookForm handleChange={this.handleChange} handleSubmit={this.handleClick}/>
         </div>
     
     )
