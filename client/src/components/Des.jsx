@@ -120,7 +120,7 @@ handleClick = async (trip)=>{
                 <span className='city'>
                     {this.props.location.state.destination}
                 </span> 
-                <Link to={`/`} className="book">Change</Link>
+                <Link to={`/`} className="book-change">Change</Link>
                 <hr className="blue-line-one"></hr>
                 <div className="book-date">
                     <div className="date">

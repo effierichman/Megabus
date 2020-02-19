@@ -13,6 +13,30 @@
   color: white;
 }
 
+.my-trips {
+  height: 34px;
+  object-fit: contain;
+  font-family: Nexa;
+  font-size: 28px;
+  padding-left: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color:  #011679;
+  text-align: center
+}
+
+.each-trip {
+  width: 500px;
+  object-fit: contain;
+  border: solid 2px #011679;
+  margin: auto;
+  margin-bottom: 10px;
+  padding-bottom: 10px
+}
+
 .TOP-Header {
   position: relative;
   margin: 0;
@@ -79,7 +103,65 @@ form {
   color: #011679;
   font-size: 12px;
   font-weight: bold;
+}
 
+.Button-comment {
+  display: block;
+  margin: auto;
+  width: 272px;
+  height: 45px;
+  object-fit: contain;
+  background-color: #f9be2c;
+  box-shadow: 3px 2px 4px 0 black;
+  margin-top: 20px;
+  color: #011679;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+.my-trip-button {
+  display: inline;
+  margin: auto;
+  width: 200px;
+  height: 45px;
+  object-fit: contain;
+  background-color: #f9be2c;
+  box-shadow: 3px 2px 4px 0 black;
+  margin-top: 20px;
+  color: #011679;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 30px
+}
+.cancel-trip-button {
+  display: inline;
+  margin: auto;
+  width: 200px;
+  height: 45px;
+  object-fit: contain;
+  background-color: #f9be2c;
+  box-shadow: 3px 2px 4px 0 black;
+  margin-top: 20px;
+  color: #011679;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+.Button {
+  display: block;
+  margin: auto;
+  width: 272px;
+  height: 30px;
+  object-fit: contain;
+  background-color: #f9be2c;
+  box-shadow: 3px 2px 4px 0 black;
+  margin-top: 25px;
+  color: #011679;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+  text-decoration: none;
 }
 
 select {
@@ -163,6 +245,22 @@ select {
 
 }
 
+.trip-time {
+  width: 115px;
+    height: 36px;
+    object-fit: contain;
+    font-family: Nexa;
+    font-size: 24px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;  
+    padding: 10px; 
+}
+
 .time-container {
   padding-top: 20px;
   border-bottom: solid 1px #979797;
@@ -183,8 +281,24 @@ select {
     float: right;
     border: none;
     text-decoration: none;
+}
 
-
+.book-change {
+  width: 57px;
+    height: 19px;
+    object-fit: contain;
+    font-family: Nexa;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #7a78ff;
+    float: right;
+    border: none;
+    padding-top: 15px;
+    text-decoration: none;
 }
 
 .book-date {
