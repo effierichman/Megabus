@@ -5,7 +5,8 @@ import {Route, BrowserRouter as Router} from 'react-router-dom'
 
 const Header = () => (
   <div className= "container">
-  <NavLink to = '/'>
+  <NavLink style={{ textDecoration: 'none' }}
+to = '/'>
     <nav className="TOP-Header">
     <h1 className="megabuscom">megabus.com</h1>
       
