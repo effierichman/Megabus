@@ -26,15 +26,67 @@ async componentDidMount(){
      }
 }
 
+local =(trip) => {
+
+    if(localStorage) {
+        let trips
+        if (!localStorage['trip']){
+            trips =[];
+          }
+        else {
+            trips = JSON.parse(localStorage['trip'])
+        }
+        if (!(trips instanceof Array)){
+             trips = []
+        }
+        trips.push(trip)
+
+
+    localStorage.setItem('trip', JSON.stringify(trips))
+
+    }
+}
+
 handleClick = async (trip)=>{
     console.log("test")
+    this.local(trip)
     this.setState({
         submitted: true,
         selection: trip
         
-    })}
+    })
+    
+}
 
-     
+
+
+
+    // componentWillMount(){
+    //     localStorage.getItem('trip') && this.setState({
+    //       selection: JSON.parse(localStorage.getItem('trip')),
+    //     })
+    //   }
+    
+    //   componentWillUpdate(nextProps, nextState) {
+    //       if(localStorage) {
+    //           let trips
+    //           if (!localStorage['trip']){
+    //               trips =[];
+    //             }
+    //           else {
+    //               trips = JSON.parse(localStorage['trip'])
+    //           }
+    //           if (!(trips instanceof Array)){
+    //                trips = []
+    //           }
+    //           trips.push(this.state.selection.trip)
+
+
+    //     localStorage.setItem('trip', JSON.stringify(trips))
+    
+    //  }
+
+    // }
 
    
 
