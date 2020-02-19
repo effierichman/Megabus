@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import image from '../image/yellow-arrow3x.png'
-import { Redirect } from 'react-router-dom'
+import { Redirect, Link } from 'react-router-dom'
 
 
 export default class Des extends Component {
@@ -96,7 +96,7 @@ handleClick = async (trip)=>{
             return <Redirect to={{pathname:'/my-trips', state: this.state}} />
         }
            const trips =this.state.trips && this.state.trips.map(trip => (
-      <div key={trip}>
+      <div className="time-container" key={trip}>
           <span className="time">
             {trip.departure_time} 
           </span>
@@ -119,10 +119,16 @@ handleClick = async (trip)=>{
                 <img className="Yellow-arrow"  src={image} />
                 <span className='city'>
                     {this.props.location.state.destination}
-                </span>
+                </span> 
+                <Link to={`/`} className="book">Change</Link>
+                <hr className="blue-line-one"></hr>
                 <div className="book-date">
+                    <div className="date">
                 {this.props.location.state.date}
+                    </div>
                 </div>
+                <hr className="blue-line-two"></hr>
+
                 {trips}
             </div>
         )

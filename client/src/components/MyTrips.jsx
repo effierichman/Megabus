@@ -38,12 +38,20 @@ function MyTrips(props) {
           {props.location.state.selection.trip.arrival_time} */}
 
           
-        {trips.map(trip => <li>{trip.trip.id}</li>)}
+        {trips.map(trip => 
+        <div>
+        <li>{trip.trip.departure_city} {trip.trip.destination_city}
+          {trip.trip.departure_time}          {trip.trip.arrival_time}
+        </li>
+        <button>Trip details</button>
+        <button>Cancel trip</button>
+        </div>
+
+        )}
 
 
 
          
-
 
         </div>
     );
