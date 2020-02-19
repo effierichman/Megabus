@@ -47,7 +47,7 @@ handleClick = async ()=>{
           </span>
           <button onClick={this.handleClick}  className="book">Book</button>
       </div>
-    ))
+    ))   
         return (
             <div className="booking-container">
                 <span className='city'>
