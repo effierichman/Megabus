@@ -10,6 +10,7 @@ super(props)
 this.state = {
     trips: [],
     submitted: false,
+    selection: ''
 }
 }
 
@@ -25,19 +26,25 @@ async componentDidMount(){
      }
 }
 
-handleClick = async ()=>{
+handleClick = async (trip)=>{
     console.log("test")
     this.setState({
         submitted: true,
+        selection: trip
+        
     })}
 
+     
+
+   
 
     render() {
+        
         if(this.state.submitted){
             return <Redirect to={{pathname:'/my-trips', state: this.state}} />
         }
            const trips =this.state.trips && this.state.trips.map(trip => (
-      <div key={trip.id}>
+      <div key={trip}>
           <span className="time">
             {trip.departure_time} 
           </span>
@@ -45,10 +52,14 @@ handleClick = async ()=>{
           <span className="time">
             {trip.arrival_time} 
           </span>
-          <button onClick={this.handleClick}  className="book">Book</button>
+          
+          <button onClick={()=>this.handleClick({trip})}  className="book">Book</button>
       </div>
+      
     ))   
+
         return (
+            
             <div className="booking-container">
                 <span className='city'>
                     {this.props.location.state.departure} 
