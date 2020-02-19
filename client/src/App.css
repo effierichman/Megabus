@@ -23,7 +23,7 @@
 }
 
 .helper-container{
-  margin-top: 20px;
+  margin-top: -80px;
   display: flex;
   float: right;
   margin-right: 20px;
@@ -84,7 +84,7 @@ select {
     height: 41px;
     object-fit: contain;
     box-shadow: 1px 2px 4px 0 rgba(29, 28, 28, 0.5);
-    border: solid 1px var(--brown-grey);
+    border: solid 1px #979797;
     background-color: var(--white);
   }
 
@@ -101,6 +101,12 @@ select {
     line-height: normal;
     letter-spacing: normal;
     color: black;
+    
+  }
+
+  select {
+    -webkit-appearance: none;
+    border-radius: 0px;
   }
 
   .Rectangle {
@@ -111,3 +117,136 @@ select {
     margin: auto;
     margin-top: 100px;
   }
+
+  .Yellow-arrow {
+  width: 27px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.city {
+    width: 105px;
+    height: 43px;
+    object-fit: contain;
+    font-family: Nexa;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+  
+}
+
+.time {
+  
+    width: 115px;
+    height: 36px;
+    object-fit: contain;
+    font-family: Nexa;
+    font-size: 24px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+  
+}
+
+.book {
+    width: 57px;
+    height: 19px;
+    object-fit: contain;
+    font-family: Nexa;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #7a78ff;
+    float: right
+}
+
+.book-date {
+  margin: auto;
+  width: 85px;
+  height: 64px;
+  object-fit: contain;
+  font-family: Nexa;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+  background-color: #011679;
+}
+
+.booking-container {
+    width: 321px;
+    height: 454px;
+    object-fit: contain;
+    margin: auto;
+    margin-top: 100px;
+  
+}
+
+.comment {
+  width: 259px;
+  height: 41px;
+  object-fit: contain;
+  border: solid 1px #979797;
+  display: block;
+  margin: auto;
+  margin-top: 20px
+}
+
+.comment-hello {
+  display: block;
+  margin: auto;
+  width: 259px;
+  height: 155px;
+  object-fit: contain;
+  border: solid 1px #979797;
+  margin-top: 20px
+
+
+}
+
+.Greener-Travel {
+  width: 226px;
+  height: 38px;
+  object-fit: contain;
+  font-family: Nexa;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #011679;
+  margin: auto;
+
+}
+
+.Green-container {
+  width: 321px;
+  height: 454px;
+  object-fit: contain;
+  margin: auto;
+  margin-top: 100px;
+
+}
+
+.Green-image {
+  width: 375px;
+  height: 186.9px;
+}

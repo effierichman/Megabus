@@ -74,7 +74,6 @@ handleChange = (e) =>{
 
     return (
         <div>
-        <h4>Render selected trips here</h4>
         {/* <ul>{trips}</ul> */}
         <BookForm handleChange={this.handleChange} handleSubmit={this.handleClick}/>
         </div>

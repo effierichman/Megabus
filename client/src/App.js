@@ -7,15 +7,25 @@ import BookTrips from './components/bookTrips'
 import HelpButton from './components/helpButton'
 import Help from './components/help'
 import Des from './components/Des'
+import Email from './components/Email'
+import Greener from './components/Greener'
+import MyTrips from './components/MyTrips'
+
 
 function App() {
   return (
     <React.Fragment>
           <Header />
-          <HelpButton />
+          {/* <HelpButton /> */}
           <Route exact path="/des" component={Des} />
           <Route exact path="/" component={BookTrips} />
           <Route exact path="/help" component={Help} />
+          <Route exact path="/email" component={Email} />
+          <Route exact path="/greener" component={Greener} />
+          <Route exact path="/my-trips" component={MyTrips} />
+
+
+
      </React.Fragment>
   );
 }

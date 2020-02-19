@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Route, withRouter } from 'react-router-dom'
+import HelpButton from './helpButton'
 
 export default function BookForm(props) {
 
@@ -12,6 +13,9 @@ export default function BookForm(props) {
     props.handleSubmit()
   }
 return (
+  <div>
+  <HelpButton />
+
         <form>
           <h2 className="Book-Now">Book Now!</h2>
           <label className="FROM">FROM</label>
@@ -49,7 +53,7 @@ return (
           <button onClick={handleSubmit} type="submit"  className="Button_Off">Find Tickets</button>
   
         </form>
-   
+        </div>
     );
 }
   
