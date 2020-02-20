@@ -41,7 +41,9 @@ handleClickOutside = event=>{
   render(){
   return(
     
-  <div className= "container" ref= {this.container}>
+
+  <div className= "container">
+      <div className= "container" ref= {this.container}>
 
 <button type="button" class="button" onClick={this.handleButtonClick}>
             ☰
@@ -57,13 +59,25 @@ handleClickOutside = event=>{
     </ul>
   </div>
 )}
-  <NavLink to = '/'>
-    <nav className="TOP-Header">
+
+</div>
+     <nav className="TOP-Header">
+
+       <div className="hamberger-container">
+         <div className="hamberger"></div>
+          <div className="hamberger"></div>
+         <div className="hamberger"></div>
+    </div>
+
+    <NavLink style={{ textDecoration: 'none' }}
+      to = '/'>
     <h1 className="megabuscom">megabus.com</h1>
-      
-    </nav>
-   
+
     </NavLink>
+    
+    </nav>
+
+  
     </div>
   )};
 

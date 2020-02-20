@@ -15,7 +15,7 @@ function Email() {
             <input className="comment" placeholder="Question about charge"  />
 
             <input className="comment-hello" placeholder="Hello..."  />
-            <button className="Button_Off">Send</button>
+            <button className="Button-comment">Send</button>
         </form>
         </div>
     );
