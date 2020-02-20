@@ -19,6 +19,9 @@ import { Redirect } from 'react-router-dom'
 
 export default class MyTrips extends Component {
 
+
+
+  
   constructor(props){
     super(props)
     this.state = {
@@ -67,7 +70,6 @@ export default class MyTrips extends Component {
 
     // localStorage.getItem('trip');
 
-   
 
     
 
