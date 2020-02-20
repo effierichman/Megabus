@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import {Route, BrowserRouter as Router} from 'react-router-dom'
 
 
@@ -41,38 +41,50 @@ componentWillMount(){
     
 
   <div className= "container">
-      <div className= "container" ref= {this.container}>
+    
 
-<button type="button" class="button" onClick={this.handleButtonClick}>
-            ☰
-          </button>
-          {this.state.open &&(
-    <div class="dropdown">
-    <ul>
-      <li>Explore</li>
-      <li>Track my bus</li>
-      <li>Help</li>
-      <li>Change trip</li>
-      <li>Greener travel</li>
-    </ul>
-  </div>
-)}
-
-</div>
      <nav className="TOP-Header">
-
-       <div className="hamberger-container">
-         <div className="hamberger"></div>
-          <div className="hamberger"></div>
-         <div className="hamberger"></div>
-    </div>
-
-    <NavLink style={{ textDecoration: 'none' }}
+     <NavLink style={{ textDecoration: 'none' }}
       to = '/'>
     <h1 className="megabuscom">megabus.com</h1>
 
     </NavLink>
     
+     <div className= "container" ref= {this.container}>
+
+       
+
+<button type="button" className="button" onClick={this.handleButtonClick}>
+<div  className="hamberger-container">
+         <div className="hamberger"></div>
+          <div className="hamberger"></div>
+         <div className="hamberger"></div>
+    </div> 
+
+            {/* ☰ */}
+            
+          </button>
+          {this.state.open &&(
+    <div className="dropdown">
+      
+    <ul>
+      <Link style={{ textDecoration: 'none' }} to={`/my-trips`}><li>Track my bus</li></Link>
+      <Link style={{ textDecoration: 'none' }} to={`/email`}><li>Help</li></Link>
+      <Link style={{ textDecoration: 'none' }} to={`/my-trips`}><li>Change trip</li></Link>
+      <Link style={{ textDecoration: 'none' }} to={`/greener`}><li>Greener travel</li></Link>
+    </ul>
+  </div>
+)}
+
+</div>
+
+       {/* <div  className="hamberger-container">
+         <div className="hamberger"></div>
+          <div className="hamberger"></div>
+         <div className="hamberger"></div>
+    </div>  */}
+
+  
     </nav>
 
   
