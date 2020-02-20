@@ -418,22 +418,69 @@ margin-top: 0px
 }
 
 .detail-arrow {
-  display: flex
+  display: flex;
+  width: 27px;
+  height: 18px;
+  object-fit: contain;
+  padding: 50px 10px
 
 }
 
 .departure {
-  display: flex;
-  background-color: blue
-
-
+  display: block;
 }
 
 .arrival {
-  display: flex;
-  background-color: blue
+  display: block;
 }
 
 .map-detail-container {
-  display: flex
+  display: flex;
+  width: 200px;
+  object-fit: contain;
+  margin: auto;
+  margin-bottom: 10px;
+  padding-bottom: 10px
+}
+
+.en-route {
+  text-align: center;
+  font-family: Nexa;
+  font-size: 12px;
+}
+
+.detail-departure {
+  display: block;
+  font-family: Nexa;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.departure-time {
+  display: block;
+
+  font-family: Nexa;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+
+  
+}
+
+.departure-time-num {
+  display: block;
+  font-family: Nexa;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+
+}
+
+.trip-label {
+  text-align: center;
+  font-family: Nexa;
+  font-size: 12px;
+  font-weight: bold;
 }
