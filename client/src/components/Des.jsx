@@ -5,6 +5,7 @@ import { Redirect, Link } from 'react-router-dom'
 
 
 export default class Des extends Component {
+
 constructor(props){
 super(props)
 this.state = {
@@ -14,17 +15,18 @@ this.state = {
 }
 }
 
-async componentDidMount(){
-    console.log(this.props.location)
-    try {
-        const response = await axios(`http://localhost:3000/trips/${this.props.location.state.departure}/${this.props.location.state.destination}/${this.props.location.state.date}`)
-        console.log(response)
-       this.setState({ trips: response.data.selectedTrip })
-       console.log(this.state.trips)
-     } catch (err) {
-       console.error(err)
-     }
-}
+    async componentDidMount() {
+        console.log(this.props.location)
+        try {
+            const response = await axios(`http://localhost:3000/trips/${this.props.location.state.departure}/${this.props.location.state.destination}/${this.props.location.state.date}`)
+            console.log(response)
+            this.setState({ trips: response.data.selectedTrip })
+            console.log(this.state.trips)
+        } catch (err) {
+            console.error(err)
+        }
+    }
+
 
 local =(trip) => {
 
@@ -109,14 +111,13 @@ handleClick = async (trip)=>{
       </div>
       
     ))   
-
         return (
             
             <div className="booking-container">
                 <span className='city'>
-                    {this.props.location.state.departure} 
+                    {this.props.location.state.departure}
                 </span>
-                <img className="Yellow-arrow"  src={image} />
+                <img className="Yellow-arrow" src={image} />
                 <span className='city'>
                     {this.props.location.state.destination}
                 </span> 

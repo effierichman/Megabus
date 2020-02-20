@@ -17,6 +17,7 @@ const Header = () => (
     <NavLink style={{ textDecoration: 'none' }}
 to = '/'>
     <h1 className="megabuscom">megabus.com</h1>
+
     </NavLink>
     
     </nav>
