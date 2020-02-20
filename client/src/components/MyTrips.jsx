@@ -52,6 +52,14 @@ export default class MyTrips extends Component {
           
       }
       
+       deleteItem() {
+        var storedNames = JSON.parse(localStorage.getItem("trip"));
+
+        var indexToRemove = 1;
+    
+        storedNames.slice(indexToRemove, 1);
+    
+      }
     
     // console.log(props)
     // console.log(props.location.state.trips)
@@ -78,7 +86,8 @@ render () {
           
         {this.state.trips.map(trip => 
         <div className="each-trip">
-        <div>
+        <div className="total-time">
+          <div>
           <span className="trip-time">
           {trip.trip.departure_city} 
           </span>
@@ -86,6 +95,7 @@ render () {
           <span className="trip-time">
           {trip.trip.destination_city}
           </span>
+          </div>
           <span className="trip-time">
           {trip.trip.departure_time} 
           </span>
@@ -96,7 +106,7 @@ render () {
           </span>
         </div>
         <button onClick={()=>this.handleClick(trip)} className="my-trip-button">Trip details</button>
-        <button className="cancel-trip-button">Cancel trip</button>
+        <button onClick={()=>this.deleteItem()} className="cancel-trip-button">Cancel trip</button>
         </div>
 
         )}

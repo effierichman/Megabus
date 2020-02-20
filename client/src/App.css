@@ -131,7 +131,7 @@ form {
 
 }
 .my-trip-button {
-  display: inline;
+  display: block;
   margin: auto;
   width: 200px;
   height: 45px;
@@ -142,10 +142,9 @@ form {
   color: #011679;
   font-size: 12px;
   font-weight: bold;
-  margin: 0 30px
 }
 .cancel-trip-button {
-  display: inline;
+  display: block;
   margin: auto;
   width: 200px;
   height: 45px;
@@ -540,18 +539,19 @@ margin-top: 0px
 .triangle {
   width: 22px;
   height: 12px;
-
-  padding-left: 190px;
+  padding-left: 165px;
+  margin-top: -20px
 }
 
 .mapImage {
-  display: flex;
-  /* width: 40vw; */
   margin: auto;
-  
+  width: 375px;
+  object-fit: cover;
+  display:flex;
 
-  padding-left: 165px;
-}
+
+
+  }
 
 .button {
   padding-left: 20px;
@@ -581,3 +581,9 @@ li {
 p {
   font-family: nexa
 }
+
+.total-time {
+  text-align: center;
+  padding-top: 10px
+}
+
