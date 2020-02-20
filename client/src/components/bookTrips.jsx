@@ -59,6 +59,7 @@ handleChange = (e) =>{
  
   render() {
       console.log(this.state)
+      console.log(this.state.submitted)
     // const trips =this.state.trips && this.state.trips.map(trip => (
     //   <div key={trip.id}>
     //     <h2>
