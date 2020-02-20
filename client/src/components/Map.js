@@ -142,6 +142,9 @@ const Map = (props) => {
                 <Link className="Button_final">Notifications</Link>
                 <Link className="Button_final">Your Greener Travel</Link>
             </div>
+        </div >
+
+       
 
         </div>
 
