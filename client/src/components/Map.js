@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactMapGL, { Marker, Popup } from 'react-map-gl'
 // import { findByLabelText } from '@testing-library/react';
-import { Route } from 'react-router-dom'
+import { Route, Link } from 'react-router-dom'
 import image from '../image/yellow-arrow3x.png'
 
 
@@ -63,6 +63,11 @@ const Map = (props) => {
             <p className="trip-label">TRIP TIME</p>
           <p className="departure-time-num ">{props.location.state.selection.trip.travel_time}</p>
           </div>
+          <div className="button-container">
+          <Link className="Button_final">Notifications</Link>
+          <Link className="Button_final">Your Greener Travel</Link>
+          </div>
+
         </div>
 
         

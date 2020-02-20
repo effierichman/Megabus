@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import axios from 'axios'
 import image from '../image/yellow-arrow3x.png'
 import { Redirect, Link } from 'react-router-dom'
-
+import triangle from '../image/path-2@3x.png'
 
 export default class Des extends Component {
 
@@ -129,6 +129,7 @@ handleClick = async (trip)=>{
                     </div>
                 </div>
                 <hr className="blue-line-two"></hr>
+                <img className="triangle"src={triangle} />
 
                 {trips}
             </div>
