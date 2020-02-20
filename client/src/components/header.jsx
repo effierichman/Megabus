@@ -37,7 +37,6 @@ handleClickOutside = event=>{
 };
 
 
-// const Header = () => (
   render(){
   return(
     
@@ -56,8 +55,7 @@ handleClickOutside = event=>{
 
        
 
-<button type="button" className="button" onClick={this.handleButtonClick}>
-<div  className="hamberger-container">
+<div onClick={this.handleButtonClick}  className="hamberger-container">
          <div className="hamberger"></div>
           <div className="hamberger"></div>
          <div className="hamberger"></div>
@@ -65,7 +63,6 @@ handleClickOutside = event=>{
 
             {/* ☰ */}
             
-          </button>
           {this.state.open &&(
     <div className="dropdown">
       
