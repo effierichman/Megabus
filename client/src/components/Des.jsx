@@ -10,6 +10,7 @@ super(props)
 this.state = {
     trips: [],
     submitted: false,
+    toggleTrip: ''
 }
 }
 
@@ -29,10 +30,13 @@ handleClick = async ()=>{
     console.log("test")
     this.setState({
         submitted: true,
+        // toggleTrip: this.trips
+        // need variable to designate selected trip.
     })}
 
 
     render() {
+        console.log(this.state.submitted)
         if(this.state.submitted){
             return <Redirect to={{pathname:'/my-trips', state: this.state}} />
         }
