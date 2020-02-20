@@ -514,3 +514,10 @@ margin-top: 0px
   height: 12px;
   padding-left: 190px;
 }
+
+.mapImage {
+  display: flex;
+  /* width: 40vw; */
+  margin: auto;
+  
+}
