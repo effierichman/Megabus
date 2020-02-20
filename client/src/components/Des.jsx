@@ -1,17 +1,19 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import image from '../image/yellow-arrow3x.png'
-import { Redirect } from 'react-router-dom'
+import { Redirect, Link } from 'react-router-dom'
 
 
 export default class Des extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            trips: [],
-            submitted: false,
-        }
-    }
+
+constructor(props){
+super(props)
+this.state = {
+    trips: [],
+    submitted: false,
+    selection: ''
+}
+}
 
     async componentDidMount() {
         console.log(this.props.location)
@@ -25,31 +27,92 @@ export default class Des extends Component {
         }
     }
 
-    handleClick = async () => {
-        console.log("test")
-        this.setState({
-            submitted: true,
-        })
-    }
 
+local =(trip) => {
+
+    if(localStorage) {
+        let trips
+        if (!localStorage['trip']){
+            trips =[];
+          }
+        else {
+            trips = JSON.parse(localStorage['trip'])
+        }
+        if (!(trips instanceof Array)){
+             trips = []
+        }
+        trips.push(trip)
+
+
+    localStorage.setItem('trip', JSON.stringify(trips))
+
+    }
+}
+
+handleClick = async (trip)=>{
+    console.log("test")
+    this.local(trip)
+    this.setState({
+        submitted: true,
+        selection: trip
+        
+    })
+    
+}
+
+
+
+
+    // componentWillMount(){
+    //     localStorage.getItem('trip') && this.setState({
+    //       selection: JSON.parse(localStorage.getItem('trip')),
+    //     })
+    //   }
+    
+    //   componentWillUpdate(nextProps, nextState) {
+    //       if(localStorage) {
+    //           let trips
+    //           if (!localStorage['trip']){
+    //               trips =[];
+    //             }
+    //           else {
+    //               trips = JSON.parse(localStorage['trip'])
+    //           }
+    //           if (!(trips instanceof Array)){
+    //                trips = []
+    //           }
+    //           trips.push(this.state.selection.trip)
+
+
+    //     localStorage.setItem('trip', JSON.stringify(trips))
+    
+    //  }
+
+    // }
+
+   
 
     render() {
-        if (this.state.submitted) {
-            return <Redirect to={{ pathname: '/my-trips', state: this.state }} />
+        
+        if(this.state.submitted){
+            return <Redirect to={{pathname:'/my-trips', state: this.state}} />
         }
-        const trips = this.state.trips && this.state.trips.map(trip => (
-            <div key={trip.id}>
-                <span className="time">
-                    {trip.departure_time}
-                </span>
-                <img className="Yellow-arrow" src={image} />
-                <span className="time">
-                    {trip.arrival_time}
-                </span>
-                <button onClick={this.handleClick} className="book">Book</button>
-            </div>
-        ))
+           const trips =this.state.trips && this.state.trips.map(trip => (
+      <div className="time-container" key={trip}>
+          <span className="time">
+            {trip.departure_time} 
+          </span>
+          <img className="Yellow-arrow" src={image} />
+          <span className="time">
+            {trip.arrival_time} 
+          </span>
+          
+          <button onClick={()=>this.handleClick({trip})}  className="book">Book</button>
+      </div>
+      
+    ))   
         return (
+            
             <div className="booking-container">
                 <span className='city'>
                     {this.props.location.state.departure}
@@ -57,10 +120,16 @@ export default class Des extends Component {
                 <img className="Yellow-arrow" src={image} />
                 <span className='city'>
                     {this.props.location.state.destination}
-                </span>
+                </span> 
+                <Link to={`/`} className="book-change">Change</Link>
+                <hr className="blue-line-one"></hr>
                 <div className="book-date">
-                    {this.props.location.state.date}
+                    <div className="date">
+                {this.props.location.state.date}
+                    </div>
                 </div>
+                <hr className="blue-line-two"></hr>
+
                 {trips}
             </div>
         )
