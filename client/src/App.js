@@ -12,6 +12,8 @@ import Greener from './components/Greener'
 import MyTrips from './components/MyTrips'
 import Map from '../src/./components/Map'
 import Notifications from './components/Notifications'
+import StupidCat from './components/StupidCat'
+import FAQ from './components/FAQ'
 
 
 function App() {
@@ -27,7 +29,8 @@ function App() {
           <Route exact path="/my-trips" component={MyTrips} />
           <Route exact path="/my-map" component={Map} />
           <Route exact path="/notifications" component={Notifications}/>
-
+          <Route exact path="/stupidcat" component= {StupidCat}/>
+          <Route exact path="/FAQ" component={FAQ}/>
 
 
      </React.Fragment>

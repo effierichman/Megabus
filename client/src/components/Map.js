@@ -190,14 +190,18 @@ const Map = (props) => {
                 <p className="departure-time-num ">{props.location.state.selection.trip.travel_time}</p>
             </div>
             <div className="button-container">
-                <Link className="Button_final">Notifications</Link>
-                <Link className="Button_final">Your Greener Travel</Link>
-            </div>
-        </div >
+
 
        
 
-      
+
+                <Link to={`/notifications`} className="Button_final">Notifications</Link>
+                <Link to= "/stupidcat"
+                className="Button_final">Your Greener Travel</Link>
+            </div>
+        </div >
+
+    
 
 
     )
