@@ -416,3 +416,24 @@ margin-top: 0px
  padding-top: 20px;
  padding-left: 20px;
 }
+
+.detail-arrow {
+  display: flex
+
+}
+
+.departure {
+  display: flex;
+  background-color: blue
+
+
+}
+
+.arrival {
+  display: flex;
+  background-color: blue
+}
+
+.map-detail-container {
+  display: flex
+}
