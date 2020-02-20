@@ -12,7 +12,7 @@
   letter-spacing: normal;
   text-align: center;
   color: white;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .my-trips {
@@ -282,6 +282,7 @@ select {
     color: #7a78ff;
     float: right;
     border: none;
+    background-color: white;
     text-decoration: none;
 }
 
@@ -342,7 +343,7 @@ margin-top: 0px
 }
 
 .booking-container {
-    width: 321px;
+    width: 401px;
     object-fit: contain;
     margin: auto;
     margin-top: 30px;
@@ -486,31 +487,30 @@ margin-top: 0px
 }
 
 .Button_final {
-  display: inline;
   margin: auto;
   object-fit: contain;
+  width: 150px;
+  height: 20px;
   background-color: #f9be2c;
   box-shadow: 3px 2px 4px 0 black;
   color: #011679;
   font-size: 12px;
-  padding: 10px 30px;
+  padding: 18px 30px;
   font-weight: bold;
   margin-left: 20px;
   text-decoration: none;
 }
 
 .button-container {
-  display: flex;
-  width: 400px;
+  display:flex;
+  width: 321px;
   object-fit: contain;
   margin: auto;
-  margin-left: 130px
-  
-
+  margin-top: 100px;
 }
 
 .triangle {
   width: 22px;
   height: 12px;
-  padding-left: 150px;
+  padding-left: 190px;
 }
