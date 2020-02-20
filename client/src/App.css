@@ -540,6 +540,16 @@ margin-top: 0px
 .triangle {
   width: 22px;
   height: 12px;
+
+  padding-left: 190px;
+}
+
+.mapImage {
+  display: flex;
+  /* width: 40vw; */
+  margin: auto;
+  
+
   padding-left: 165px;
 }
 
