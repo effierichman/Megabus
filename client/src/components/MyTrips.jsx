@@ -6,16 +6,16 @@ import arrow from '../image/yellow-arrow3x.png'
 import { Redirect } from 'react-router-dom'
 
 
-function MyTrips(props) {
-    console.log(props)
-    console.log(props.location.state.trips)
+// function MyTrips(props) {
+//     console.log(props)
+//     console.log(props.location.state.trips)
  
-    return (
-        <div>
-          <h1>My Booked Trips</h1>
-          {props.location.state.trips[0].departure_city}
-          {props.location.state.trips[0].destination_city}
-          {props.location.state.trips[0].id}
+//     return (
+//         <div>
+//           <h1>My Booked Trips</h1>
+//           {props.location.state.trips[0].departure_city}
+//           {props.location.state.trips[0].destination_city}
+//           {props.location.state.trips[0].id}
 
 export default class MyTrips extends Component {
 
@@ -25,7 +25,7 @@ export default class MyTrips extends Component {
         trips: [],
         submitted: false,
         selection: ''
-    }
+    };
     }
     
         async componentDidMount() {

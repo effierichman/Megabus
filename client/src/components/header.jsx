@@ -39,7 +39,9 @@ componentWillMount(){
   render(){
   return(
     
-  <div className= "container" ref= {this.container}>
+
+  <div className= "container">
+      <div className= "container" ref= {this.container}>
 
 <button type="button" class="button" onClick={this.handleButtonClick}>
             ☰
@@ -55,13 +57,10 @@ componentWillMount(){
     </ul>
   </div>
 )}
-  <NavLink to = '/'>
-    <nav className="TOP-Header">
-const Header = () => (
-  <div className= "container">
+
+</div>
      <nav className="TOP-Header">
 
-       {/* //hey donald this is the hamberger bar */}
        <div className="hamberger-container">
          <div className="hamberger"></div>
           <div className="hamberger"></div>
@@ -69,13 +68,13 @@ const Header = () => (
     </div>
 
     <NavLink style={{ textDecoration: 'none' }}
-to = '/'>
+      to = '/'>
     <h1 className="megabuscom">megabus.com</h1>
 
     </NavLink>
     
     </nav>
-   
+
   
     </div>
   )};
