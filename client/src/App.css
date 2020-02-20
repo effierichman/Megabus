@@ -484,3 +484,17 @@ margin-top: 0px
   font-size: 12px;
   font-weight: bold;
 }
+
+.Button_final {
+  display: inline;
+  margin: auto;
+  object-fit: contain;
+  background-color: #f9be2c;
+  box-shadow: 3px 2px 4px 0 black;
+  color: #011679;
+  font-size: 12px;
+  padding: 10px 30px;
+  font-weight: bold;
+  margin: 0 30px;
+  text-decoration: none;
+}
