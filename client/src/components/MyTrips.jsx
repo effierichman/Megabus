@@ -1,22 +1,47 @@
-import React, {useState, useEffect} from 'react'
+import React, { Component } from 'react'
 import { Link, Route, withRouter } from 'react-router-dom'
 import image from '../image/chuck3x.png'
 import HelpButton from './helpButton'
 import arrow from '../image/yellow-arrow3x.png'
+import { Redirect } from 'react-router-dom'
 
 
-function MyTrips(props) {
-  const [trips, setTrips] = useState([])
 
-  useEffect(()=>{
-    if(localStorage["trip"]) {
-      let trip = localStorage.getItem('trip')
-      let myTrip = JSON.parse(trip)
-      setTrips(myTrip)
+export default class MyTrips extends Component {
+
+  constructor(props){
+    super(props)
+    this.state = {
+        trips: [],
+        submitted: false,
+        selection: ''
     }
-  },[])
+    }
+    
+        async componentDidMount() {
+          if(localStorage["trip"]) {
+            let trip = localStorage.getItem('trip')
+            let myTrip = JSON.parse(trip)
+          
+            this.setState({trips: myTrip})
+          }
+        }
+    
+
   
 
+
+  
+    handleClick = async (trip)=>{
+          console.log("test")
+          this.setState({
+              submitted: true,
+              selection: trip
+              
+          })
+          
+      }
+      
     
     // console.log(props)
     // console.log(props.location.state.trips)
@@ -28,8 +53,10 @@ function MyTrips(props) {
 
     
 
-  console.log(trips)
-
+render () {
+  if(this.state.submitted){
+    return <Redirect to={{pathname:'/my-map', state: this.state}} />
+}
     return (
         <div>
           <h1 className="my-trips">My Booked Trips</h1>
@@ -39,7 +66,7 @@ function MyTrips(props) {
           {props.location.state.selection.trip.arrival_time} */}
 
           
-        {trips.map(trip => 
+        {this.state.trips.map(trip => 
         <div className="each-trip">
         <div>
           <span className="trip-time">
@@ -58,7 +85,7 @@ function MyTrips(props) {
           {trip.trip.arrival_time}
           </span>
         </div>
-        <button className="my-trip-button">Trip details</button>
+        <button onClick={()=>this.handleClick(trip)} className="my-trip-button">Trip details</button>
         <button className="cancel-trip-button">Cancel trip</button>
         </div>
 
@@ -71,5 +98,6 @@ function MyTrips(props) {
         </div>
     );
   }
+
+}
   
-  export default MyTrips;
