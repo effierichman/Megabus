@@ -7,7 +7,7 @@ class Header extends React.Component{
 
 container= React.createRef();
 state={
-  open:false
+  open:false,
 };
 
 handleButtonClick=()=>{
@@ -18,6 +18,16 @@ handleButtonClick=()=>{
 });
 }
 
+
+
+componentDidMount(){
+  document.addEventListener("mousedown", this.handleClickOutside);
+}
+
+componentWillMount(){
+  document.removeEventListener("mousedown", this.handleClickOutside);
+}
+
 handleClickOutside = event=>{
   if(this.container.current && !this.container.current.contains(event.target)){
     this.setState({
@@ -25,14 +35,6 @@ handleClickOutside = event=>{
     });
   }
 };
-
-componentDidMount(){
-  document.addEventListener("mousedown", this.handleClickOutside);
-}
-
-componentWillMount(){
-  document.removeEventListener("mousedown", this.handleClickOutside)
-}
 
 
 // const Header = () => (
