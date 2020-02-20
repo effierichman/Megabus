@@ -21,7 +21,7 @@
   letter-spacing: normal;
   text-align: center;
   color: white;
-  padding-top: 30px;
+  padding-top: 35px;
 }
 
 .my-trips {
@@ -286,7 +286,8 @@ select {
 }
 
 .time-container {
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   border-bottom: solid 1px #979797;
 }
 
@@ -442,7 +443,7 @@ margin-top: 0px
  position: absolute;
  /* padding-top: 20px; */
  padding-left: 15px; 
- margin-top: -35px
+ margin-top: -47px
 }
 
 .detail-arrow {
@@ -541,10 +542,11 @@ margin-top: 0px
 }
 
 .triangle {
+  display: flex;
+  margin-top: -8px;
   width: 22px;
   height: 12px;
   padding-left: 165px;
-  margin-top: -20px
 }
 
 .mapImage {
@@ -660,7 +662,6 @@ padding-left: 40px;
   width: 308px;
   height: 36px;
   font-family: Nexa;
-
   object-fit: contain;
   background-color: white;
   box-shadow: 3px 2px 4px 0 black;
@@ -670,4 +671,26 @@ padding-left: 40px;
   font-size: 16px;
   font-weight: 300;
   font-weight: bold;
+}
+
+.topic {
+  padding-left: 25px;
+  width: 113px;
+  height: 14px;
+  object-fit: contain;
+  font-family: Nexa;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: black;
+
+}
+
+.faq-container {
+  width: 375px;
+  margin: auto
+
 }
