@@ -9,7 +9,7 @@ function App() {
             <Link to={`/my-trips`} className="Button">Track my bus</Link>
             <Link to={`/email`} className="Button">Email Megabus</Link>
             <Link to={`/greener`} className="Button">Greener travel</Link>
-            <Link className="Button">More help</Link>
+            <Link to ={`/FAQ`} className="Button">More help</Link>
         </div>
     );
   }
