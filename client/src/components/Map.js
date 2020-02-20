@@ -21,22 +21,22 @@ const Map = (props) => {
 
     return (
         <div>
-        <h2>EN ROUTE</h2>
+        <h2 className="en-route">EN ROUTE</h2>
 
 
         <div className="map-detail-container">
         <div className="departure">
-          <p>{props.location.state.selection.trip.departure_city}</p>
-          <p>DEPARTURE TIME</p>
-          <p>{props.location.state.selection.trip.departure_time}</p>
+          <p className="detail-departure">{props.location.state.selection.trip.departure_city}</p>
+          <p className="departure-time">DEPARTURE <br></br> TIME</p>
+          <p className="departure-time-num">{props.location.state.selection.trip.departure_time}</p>
           </div>
 
           <img className="detail-arrow" src={image} />
 
           <div className="arrival">
-          <p>{props.location.state.selection.trip.destination_city}</p>
-          <p>ESTIMATED ARRIVAL</p>
-          <p>{props.location.state.selection.trip.arrival_time}</p>
+          <p className="detail-departure">{props.location.state.selection.trip.destination_city}</p>
+          <p className="departure-time">ESTIMATED <br></br>ARRIVAL</p>
+          <p className="departure-time-num">{props.location.state.selection.trip.arrival_time}</p>
           </div>
           
        
@@ -60,8 +60,8 @@ const Map = (props) => {
         </div >
 
         <div>
-            <p>TRIP TIME</p>
-          {props.location.state.selection.trip.travel_time}
+            <p className="trip-label">TRIP TIME</p>
+          <p className="departure-time-num ">{props.location.state.selection.trip.travel_time}</p>
           </div>
         </div>
 
