@@ -21,7 +21,7 @@
   letter-spacing: normal;
   text-align: center;
   color: white;
-  padding-top: 30px;
+  padding-top: 35px;
 }
 
 .my-trips {
@@ -286,7 +286,8 @@ select {
 }
 
 .time-container {
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   border-bottom: solid 1px #979797;
 }
 
@@ -442,7 +443,7 @@ margin-top: 0px
  position: absolute;
  /* padding-top: 20px; */
  padding-left: 15px; 
- margin-top: -35px
+ margin-top: -47px
 }
 
 .detail-arrow {
@@ -466,15 +467,17 @@ margin-top: 0px
   display: flex;
   width: 200px;
   object-fit: contain;
-  margin: auto;
   margin-bottom: 10px;
-  padding-bottom: 10px
+  padding-bottom: 10px;
+    padding-left: 20px
+
 }
 
 .en-route {
   text-align: center;
   font-family: Nexa;
   font-size: 12px;
+
 }
 
 .detail-departure {
@@ -483,6 +486,7 @@ margin-top: 0px
   font-size: 36px;
   font-weight: bold;
   text-align: center;
+
 
 }
 
@@ -516,16 +520,17 @@ margin-top: 0px
 .Button_final {
   margin: auto;
   object-fit: contain;
-  width: 150px;
-  height: 20px;
+  width: 250px;
+  height: 40px;
   background-color: #f9be2c;
   box-shadow: 3px 2px 4px 0 black;
   color: #011679;
   font-size: 12px;
-  padding: 18px 30px;
   font-weight: bold;
   margin-left: 20px;
   text-decoration: none;
+  text-align: center;
+  padding-top: 20px
 }
 
 .button-container {
@@ -537,10 +542,11 @@ margin-top: 0px
 }
 
 .triangle {
+  display: flex;
+  margin-top: -8px;
   width: 22px;
   height: 12px;
   padding-left: 165px;
-  margin-top: -20px
 }
 
 .mapImage {
@@ -579,11 +585,112 @@ li {
 }
 
 p {
-  font-family: nexa
+  font-family: nexa;
+  padding: 0 30px;
 }
 
 .total-time {
   text-align: center;
   padding-top: 10px
 }
+.cat {
+  padding-left: 50px
 
+}
+
+.proud {  
+padding-left: 40px;
+  width: 254px;
+  height: 67px;
+}
+
+.cat-container {
+  width: 323px;
+  height: 300px;
+  object-fit: contain;
+  border: solid 2px #979797;
+  margin: auto;
+  margin-top: 50px;
+
+}
+
+.Greener-Travel-title {
+  object-fit: contain;
+  font-family: Nexa;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #011679;
+  margin: auto;
+  padding-top: 20px
+
+}
+
+.notification-email {
+  width: 261px;
+  height: 52px;
+  object-fit: contain;
+  font-family: Nexa;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 20px
+}
+
+.notification-form {
+
+  width: 321px;
+  height: 254px;
+  object-fit: contain;
+  border: solid 2px #011679;
+  margin: auto;
+}
+
+.Button-help{
+  display: block;
+  margin: auto;
+  width: 308px;
+  height: 36px;
+  font-family: Nexa;
+  object-fit: contain;
+  background-color: white;
+  box-shadow: 3px 2px 4px 0 black;
+  margin-top: 20px;
+  color: black;
+  border: solid 1px #011679;
+  font-size: 16px;
+  font-weight: 300;
+  font-weight: bold;
+}
+
+.topic {
+  padding-left: 25px;
+  width: 113px;
+  height: 14px;
+  object-fit: contain;
+  font-family: Nexa;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: black;
+
+}
+
+.faq-container {
+  width: 375px;
+  margin: auto
+
+}

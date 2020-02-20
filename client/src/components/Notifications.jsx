@@ -5,8 +5,8 @@ function Notification() {
     return(
 
     <div>
-        <h3>Sign up for notifications while en route</h3>
-        <form>
+        <h3 className="notification-email">Sign up for notifications while en route</h3>
+        <form className="notification-form">
            
             <input className="comment" placeholder="Enter Phone Number"  />
             <input className="comment" placeholder="Enter email"  />
