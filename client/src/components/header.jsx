@@ -69,7 +69,7 @@ handleClickOutside = event=>{
           {this.state.open &&(
     <div className="dropdown">
       
-    <ul>
+    <ul className= "menu" onClick={this.handleButtonClick} >
       <Link style={{ textDecoration: 'none' }} to={`/my-trips`}><li>Track my bus</li></Link>
       <Link style={{ textDecoration: 'none' }} to={`/email`}><li>Help</li></Link>
       <Link style={{ textDecoration: 'none' }} to={`/my-trips`}><li>Change trip</li></Link>
