@@ -10,6 +10,7 @@ import Des from './components/Des'
 import Email from './components/Email'
 import Greener from './components/Greener'
 import MyTrips from './components/MyTrips'
+import Map from '../src/./components/Map'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/email" component={Email} />
           <Route exact path="/greener" component={Greener} />
           <Route exact path="/my-trips" component={MyTrips} />
+          <Route exact path="/my-map" component={Map} />
 
 
 
