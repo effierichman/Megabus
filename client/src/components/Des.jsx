@@ -81,21 +81,128 @@ handleClick = async (trip)=>{
       </div>
       
     ))   
+    
+    const depInput = () => {
+
+        const departure_city = this.props.location.state.departure
+
+        
+        
+        if (departure_city === 'boston') {
+            return (
+                'Boston'
+            )
+        } else if (departure_city === 'trenton') {
+            return (
+                'Trenton'
+            )
+        } else if (departure_city === 'hartford') {
+            return (
+                'Hartford'
+            )
+        } else if (departure_city === 'nyc') {
+            return (
+                'NYC'
+            )
+        } 
+
+    }
+
+    const desInput = () => {
+
+      
+
+        const destination_city = this.props.location.state.destination
+        
+        if (destination_city === 'boston') {
+            return (
+                'Boston'
+            )
+        } else if (destination_city === 'trenton') {
+            return (
+                'Trenton'
+            )
+        } else if (destination_city === 'hartford') {
+            return (
+                'Hartford'
+            )
+        } else if (destination_city === 'nyc') {
+            return (
+                'NYC'
+            )
+        } 
+    }
+
+
+    const dateInput = () => {
+
+      
+
+        const date = this.props.location.state.date
+        
+        if (date === 'wed-2-26') {
+            return (
+                'Wed 2/26'
+            )
+        } else if (date === 'thurs-2-27') {
+            return (
+                'Thurs 2/27'
+            )
+        } else if (date === 'fri-2-28') {
+            return (
+                'Fri 2/28'
+            )
+        } else if (date === 'sat-2-29') {
+            return (
+                'Sat 2/27'
+            )
+        } else if (date === 'sun-3-1') {
+            return (
+                'Sun 3/1'
+            )
+        } else if (date === 'mon-3-2') {
+            return (
+                'Mon 3/2'
+            )
+        } else if (date === 'tue-3-3') {
+            return (
+                'Tue 3/3'
+            )
+        } else if (date === 'wed-3-4') {
+            return (
+                'Wed 3/4'
+            )
+        } else if (date === 'thurs-3-5') {
+            return (
+                'Thurs 3/5'
+            )
+        } else if (date === 'fri-3-6') {
+            return (
+                'Fri 3/6'
+            )
+        } else if (date === 'sat-3-7') {
+            return (
+                'Sat 3/7'
+            )
+        } 
+    }
+       
+
         return (
             
             <div className="booking-container">
                 <span className='city'>
-                    {this.props.location.state.departure}
+                    {depInput()}
                 </span>
                 <img className="Yellow-arrow" src={image} />
                 <span className='city'>
-                    {this.props.location.state.destination}
+                    {desInput()}
                 </span> 
                 <Link to={`/`} className="book-change">Change</Link>
                 <hr className="blue-line-one"></hr>
                 <div className="book-date">
                     <div className="date">
-                {this.props.location.state.date}
+                {dateInput()}
                     </div>
                 </div>
                 <hr className="blue-line-two"></hr>
