@@ -27,6 +27,7 @@ const Map = (props) => {
         const departure_city = props.location.state.selection.trip.departure_city
 
         const destination_city = props.location.state.selection.trip.destination_city
+        
         if (departure_city === 'boston' && destination_city === 'nyc') {
             return (
 
@@ -77,9 +78,59 @@ const Map = (props) => {
                 <img className='mapImage'  src={nyctrent} />
             )
         }
+    }
+
+    const depInput = () => {
+
+        const departure_city = props.location.state.selection.trip.departure_city
+
+        const destination_city = props.location.state.selection.trip.destination_city
+        
+        if (departure_city === 'boston') {
+            return (
+                'BOS'
+            )
+        } else if (departure_city === 'trenton') {
+            return (
+                'TREN'
+            )
+        } else if (departure_city === 'hartford') {
+            return (
+                'HART'
+            )
+        } else if (departure_city === 'nyc') {
+            return (
+                'NYC'
+            )
+        } 
 
     }
 
+    const desInput = () => {
+
+        const departure_city = props.location.state.selection.trip.departure_city
+
+        const destination_city = props.location.state.selection.trip.destination_city
+        
+        if (destination_city === 'boston') {
+            return (
+                'BOS'
+            )
+        } else if (destination_city === 'trenton') {
+            return (
+                'TREN'
+            )
+        } else if (destination_city === 'hartford') {
+            return (
+                'HART'
+            )
+        } else if (destination_city === 'nyc') {
+            return (
+                'NYC'
+            )
+        } 
+
+    }
 
     console.log(props.location.state.selection.trip)
     // const [viewport, setViewport] = useState({
@@ -97,7 +148,7 @@ const Map = (props) => {
 
             <div className="map-detail-container">
                 <div className="departure">
-                    <p className="detail-departure">{props.location.state.selection.trip.departure_city}</p>
+                    <p className="detail-departure">{depInput()}</p>
                     <p className="departure-time">DEPARTURE <br></br> TIME</p>
                     <p className="departure-time-num">{props.location.state.selection.trip.departure_time}</p>
                 </div>
@@ -105,7 +156,7 @@ const Map = (props) => {
                 <img className="detail-arrow" src={image} />
 
                 <div className="arrival">
-                    <p className="detail-departure">{props.location.state.selection.trip.destination_city}</p>
+                    <p className="detail-departure">{desInput()}</p>
                     <p className="departure-time">ESTIMATED <br></br>ARRIVAL</p>
                     <p className="departure-time-num">{props.location.state.selection.trip.arrival_time}</p>
                 </div>
@@ -146,7 +197,7 @@ const Map = (props) => {
 
        
 
-        </div>
+      
 
 
     )
