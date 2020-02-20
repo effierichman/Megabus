@@ -140,13 +140,12 @@ const Map = (props) => {
             </div>
             <div className="button-container">
                 <Link className="Button_final">Notifications</Link>
-                <Link className="Button_final">Your Greener Travel</Link>
+                <Link to= "/stupidcat"
+                className="Button_final">Your Greener Travel</Link>
             </div>
         </div >
 
-       
-
-        </div>
+    
 
 
     )
