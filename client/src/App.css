@@ -40,7 +40,7 @@
 }
 
 .each-trip {
-  width: 500px;
+  width: 300px;
   object-fit: contain;
   border: solid 2px #011679;
   margin: auto;
@@ -53,7 +53,7 @@
   margin: 0;
   margin-top: -20px;
   padding-top: 0px;
-  height: 100px;
+  height: 91px;
   background-color: #011679;
 }
 
@@ -168,11 +168,21 @@ form {
   box-shadow: 3px 2px 4px 0 black;
   margin-top: 25px;
   color: #011679;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   text-align: center;
   padding-top: 15px;
   text-decoration: none;
+  font-family: nexa
+}
+
+::-webkit-input-placeholder { /* Edge */
+  font-family: nexa;
+  color: #979797;
+  padding-left: 15px;
+  font-size: 16px;
+
+
 }
 
 select {
@@ -184,6 +194,10 @@ select {
     border: solid 1px #979797;
     margin-top: 5px;
     margin-bottom: 20px;
+    font-family: nexa;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #979797
   }
 
   .FROM {
@@ -352,7 +366,7 @@ margin-top: 0px
 }
 
 .booking-container {
-    width: 401px;
+    width: 350px;
     object-fit: contain;
     margin: auto;
     margin-top: 30px;
@@ -408,14 +422,16 @@ margin-top: 0px
 }
 
 .Green-image {
-  width: 375px;
-  height: 186.9px;
+  /* width: 375px; */
+  height: 160px;
+  margin-left: 0;
+  padding-left: 0
 }
 
 .hamberger {
   display: block;
-  width: 35px;
-  height: 5px;
+  width: 25px;
+  height: 2px;
   background-color: #f9be2c;
   margin: 6px 0;
   z-index: 100;
@@ -424,9 +440,10 @@ margin-top: 0px
 }
 
 .hamberger-container {
- /* position: absolute;
- padding-top: 20px;
- padding-left: 20px; */
+ position: absolute;
+ /* padding-top: 20px; */
+ padding-left: 15px; 
+ margin-top: -35px
 }
 
 .detail-arrow {
@@ -523,7 +540,7 @@ margin-top: 0px
 .triangle {
   width: 22px;
   height: 12px;
-  padding-left: 190px;
+  padding-left: 165px;
 }
 
 .button {
@@ -536,7 +553,7 @@ margin-top: 0px
 }
 
 .dropdown {
-  padding-top: 20px;
+  padding-top: 25px;
   background-color: #7a78ff;
   height: 200px;
   font-family: Nexa;
@@ -547,5 +564,10 @@ margin-top: 0px
 
 li {
   list-style-type: none;
+  padding-bottom: 25px
   
+}
+
+p {
+  font-family: nexa
 }
