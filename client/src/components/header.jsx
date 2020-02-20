@@ -5,6 +5,7 @@ import {Route, BrowserRouter as Router} from 'react-router-dom'
 
 class Header extends React.Component{
 
+container= React.createRef();
 state={
   open:false
 };
@@ -17,13 +18,28 @@ handleButtonClick=()=>{
 });
 }
 
+handleClickOutside = event=>{
+  if(this.container.current && !this.container.current.contains(event.target)){
+    this.setState({
+      open: false,
+    });
+  }
+};
+
+componentDidMount(){
+  document.addEventListener("mousedown", this.handleClickOutside);
+}
+
+componentWillMount(){
+  document.removeEventListener("mousedown", this.handleClickOutside)
+}
 
 
 // const Header = () => (
   render(){
   return(
     
-  <div className= "container">
+  <div className= "container" ref= {this.container}>
 
 <button type="button" class="button" onClick={this.handleButtonClick}>
             ☰
