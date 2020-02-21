@@ -10,8 +10,12 @@
     "dialect": "postgres"
   },
   "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "dialectOptions": {
+       "ssl": true
+    },
     "database": "megabus_production",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "host": "127.0.0.1"
   }
 }
