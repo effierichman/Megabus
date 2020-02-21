@@ -87,7 +87,11 @@ render () {
 }
 if(this.state.trips == '') {
   return (
-  <h2>You have no booked trips</h2>
+    <div>
+    <h1 className="my-trips">My Booked Trips</h1>
+
+  <h2 className="my-trips">You have no booked trips</h2>
+  </div>
   )
 }
 
