@@ -61,6 +61,8 @@ export default class MyTrips extends Component {
         var indexToRemove = 1;
     
         storedNames.slice(indexToRemove, 1);
+        localStorage.setItem('trip', JSON.stringify(storedNames));
+
     
       }
     
