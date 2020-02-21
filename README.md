@@ -19,10 +19,10 @@ GENERAL MVP - updated workflow
 ## MVP
 - Navbar with working "track my bus" and non functional "email Megabus" "go green" and "help" links
 - "i can help" button on main page that links to "track my bus" components 
-- Book Now with "to" "from" "leaving" "returning" input field and "find ticket" button 
+- Book Now with "to" "from" "leaving" and "find ticket" button 
 - List trips component based on user input allowing user to book a trip 
 - my trips component listing users selected trips alowing user to click on trip to link to map component
-- map component with map and trip detials 
+- map component with map and trip details 
 
 
 ## Post-MVP
@@ -31,6 +31,8 @@ GENERAL MVP - updated workflow
 - Go green 
 - Help and frequently asked questions 
 - User profiles are indexed and searchable
+- "Returning" input field
+
 
 
 ## ERD Diagram
@@ -41,17 +43,18 @@ GENERAL MVP - updated workflow
 ## Endpoints
 
 USER AUTH post-MVP functionality 
-- GET `/api/users/:id`
-- POST `/api/users`
-- PUT `/api/users/:id`
-- DELETE `/api/users/:id`
+- GET `/users/:id`
+- POST `/users`
+- PUT `/users/:id`
+- DELETE `/users/:id`
 
 MY TRIPs component CRUD functionality 
-- GET `/api/trips`
-- POST `/api/trips
-- GET `/api/trips/:tripid`
-- PUT `/api/trips/:tripid`
-- DELETE `/api/trips/:tripid`
+- GET `/trips`
+- POST `/trips`
+- GET `/trips/:tripid`
+- GET `/trips/:departure_city/:destination_city/:travel_date_begin`
+- PUT `/trips/:tripid`
+- DELETE `/trips/:tripid`
 
 Sample JSON from GET `/api/users`
 
@@ -101,8 +104,6 @@ post MVP
 | going green   | functional |
 
 
-
-
 ## Priority Matrix
 
 Render your project priority matrix here
@@ -113,14 +114,15 @@ Estimate the amount of time your team expects to spend on each area of your app
 
 | Component | Estimated Time | Actual Time |
 | --- | :---: | :---: |
-| css| 15hrs |  |
-| backend set-up | 6hrs |  |
-| Front-End Routing | 7hrs |  |
-| setting up components | 5 hrs |  |
-| connecting front and backend | 5 hrs |  |
-| Server | 4hrs |  |
-| pseudocoding | 4hrs |  |
-| Total | hrs |  |
+| css| 15hrs | 15 hrs |
+| backend set-up | 6hrs | 12 hrs |
+| Front-End Routing | 7hrs | 6 hrs |
+| setting up components | 5 hrs | 4 hrs |
+| connecting front and backend | 5 hrs | 10hrs |
+| Server | 4hrs | 6 hrs |
+| pseudocoding | 4hrs | 12 hrs |
+| troubleshooting | 4hrs |  20 hrs|
+| Total | hrs | 85 hrs |
 
 _Be sure to document the actual time spent as you progress_
 
@@ -133,11 +135,11 @@ _Be sure to document the actual time spent as you progress_
 - passport 
 - pg sequelize
 
-## Expected Issues
+## Expected Issçues
 routing
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolutions
+ We had problems lifting state and passing props. Despite working together and independently, we could not finish.
 
 #### ISSUES AND RESOLUTIONS EXAMPLE:
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
