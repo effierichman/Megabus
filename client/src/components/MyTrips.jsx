@@ -55,13 +55,20 @@ export default class MyTrips extends Component {
           
       }
       
-       deleteItem() {
+       deleteItem(trip) {
         var storedNames = JSON.parse(localStorage.getItem("trip"));
-
         var indexToRemove = 1;
     
-        storedNames.slice(indexToRemove, 1);
+       storedNames.slice(indexToRemove, 1);
+
         localStorage.setItem('trip', JSON.stringify(storedNames));
+        window.location.reload();
+        localStorage.removeItem('trip');
+
+
+        console.log(trip.trip)
+
+
 
     
       }
@@ -76,6 +83,7 @@ export default class MyTrips extends Component {
     
 
 render () {
+
   if(this.state.submitted){
     return <Redirect to={{pathname:'/my-map', state: this.state}} />
 }
@@ -110,7 +118,7 @@ render () {
           </span>
         </div>
         <button onClick={()=>this.handleClick(trip)} className="my-trip-button">Trip details</button>
-        <button onClick={()=>this.deleteItem()} className="cancel-trip-button">Cancel trip</button>
+        <button onClick={()=>this.deleteItem(trip)} className="cancel-trip-button">Cancel trip</button>
         </div>
 
         )}

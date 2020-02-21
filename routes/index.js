@@ -10,6 +10,10 @@ router.get('/users/:id', controllers.getUserById)
 router.put('/users/:id', controllers.updateUser)
 router.delete('/users/:id', controllers.deleteUser)
 
+// router.post('/sign-up', controllers.signUp)
+// router.post('/sign-in', controllers.signIn)
+// router.post('/change-password', controllers.changePassword)
+
 router.get('/trips', controllers.getAllTrips)
 router.get('/trips/:departure_city/:destination_city/:travel_date_begin', controllers.displayTripData)
 
