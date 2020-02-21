@@ -19,7 +19,7 @@ this.state = {
     async componentDidMount() {
         console.log(this.props.location)
         try {
-            const response = await axios(`http://localhost:3000/trips/${this.props.location.state.departure}/${this.props.location.state.destination}/${this.props.location.state.date}`)
+            const response = await axios(`/trips/${this.props.location.state.departure}/${this.props.location.state.destination}/${this.props.location.state.date}`)
             console.log(response)
             this.setState({ trips: response.data.selectedTrip })
             console.log(this.state.trips)
