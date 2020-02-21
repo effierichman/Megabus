@@ -35,6 +35,7 @@ local =(trip) => {
         let trips
         if (!localStorage['trip']){
             trips =[];
+
           }
         else {
             trips = JSON.parse(localStorage['trip'])

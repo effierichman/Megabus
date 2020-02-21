@@ -59,20 +59,17 @@ export default class MyTrips extends Component {
         var storedNames = JSON.parse(localStorage.getItem("trip"));
         var indexToRemove = 1;
     
-       storedNames.slice(indexToRemove, 1);
+       storedNames.splice(indexToRemove, 1);
 
         localStorage.setItem('trip', JSON.stringify(storedNames));
-        window.location.reload();
-        localStorage.removeItem('trip');
+        // window.location.reload();
+        // localStorage.removeItem('trip');
 
 
-        console.log(trip.trip)
-
-
-
-    
+        console.log(this.state.trips)
       }
     
+     
     // console.log(props)
     // console.log(props.location.state.trips)
     // console.log(props.location.state.selection.trip.departure_city)
@@ -83,10 +80,18 @@ export default class MyTrips extends Component {
     
 
 render () {
+ 
 
   if(this.state.submitted){
     return <Redirect to={{pathname:'/my-map', state: this.state}} />
 }
+if(this.state.trips == '') {
+  return (
+  <h2>You have no booked trips</h2>
+  )
+}
+
+
     return (
         <div>
           <h1 className="my-trips">My Booked Trips</h1>
@@ -95,7 +100,6 @@ render () {
           {props.location.state.selection.trip.departure_time}
           {props.location.state.selection.trip.arrival_time} */}
 
-          
         {this.state.trips.map(trip => 
         <div className="each-trip">
         <div className="total-time">
