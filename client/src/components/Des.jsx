@@ -17,12 +17,9 @@ this.state = {
 }
 
     async componentDidMount() {
-        console.log(this.props.location)
         try {
             const response = await axios(`http://localhost:3000/trips/${this.props.location.state.departure}/${this.props.location.state.destination}/${this.props.location.state.date}`)
-            console.log(response)
             this.setState({ trips: response.data.selectedTrip })
-            console.log(this.state.trips)
         } catch (err) {
             console.error(err)
         }
@@ -52,18 +49,13 @@ local =(trip) => {
 }
 
 handleClick = async (trip)=>{
-    console.log("test")
     this.local(trip)
     this.setState({
         submitted: true,
         selection: trip
-
-        // toggleTrip: this.trips
-        // need variable to designate selected trip.
     })}
         
     render() {
-        console.log(this.state.submitted)
         
         if(this.state.submitted){
             return <Redirect to={{pathname:'/my-trips', state: this.state}} />

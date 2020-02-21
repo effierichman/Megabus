@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Route, withRouter } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import image from '../image/chuck@2x.png'
 
 function HelpButton() {
