@@ -1,21 +1,7 @@
 import React, { Component } from 'react'
-import { Link, Route, withRouter } from 'react-router-dom'
-import image from '../image/chuck3x.png'
-import HelpButton from './helpButton'
 import arrow from '../image/yellow-arrow3x.png'
 import { Redirect } from 'react-router-dom'
 
-
-// function MyTrips(props) {
-//     console.log(props)
-//     console.log(props.location.state.trips)
- 
-//     return (
-//         <div>
-//           <h1>My Booked Trips</h1>
-//           {props.location.state.trips[0].departure_city}
-//           {props.location.state.trips[0].destination_city}
-//           {props.location.state.trips[0].id}
 
 export default class MyTrips extends Component {
 
@@ -70,18 +56,10 @@ export default class MyTrips extends Component {
 
         localStorage.setItem('trip', JSON.stringify(storedNames));
         window.location.reload();
-        // localStorage.removeItem('trip');
-
-
-        // console.log(storedNames)
+      
       }
     
      
-    // console.log(props)
-    // console.log(props.location.state.trips)
-    // console.log(props.location.state.selection.trip.departure_city)
-
-    // localStorage.getItem('trip');
 
 
     
@@ -106,10 +84,7 @@ if(this.state.trips == '') {
     return (
         <div>
           <h1 className="my-trips">My Booked Trips</h1>
-          {/* {props.location.state.selection.trip.departure_city}
-          {props.location.state.selection.trip.destination_city}
-          {props.location.state.selection.trip.departure_time}
-          {props.location.state.selection.trip.arrival_time} */}
+         
 
         {this.state.trips.map(trip => 
         <div className="each-trip">

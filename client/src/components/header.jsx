@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import {Route, BrowserRouter as Router} from 'react-router-dom'
 
 
 class Header extends React.Component{
@@ -61,8 +60,6 @@ handleClickOutside = event=>{
           <div className="hamberger"></div>
          <div className="hamberger"></div>
     </div> 
-
-            {/* ☰ */}
             
           {this.state.open &&(
     <div className="dropdown">
@@ -78,11 +75,7 @@ handleClickOutside = event=>{
 
 </div>
 
-       {/* <div  className="hamberger-container">
-         <div className="hamberger"></div>
-          <div className="hamberger"></div>
-         <div className="hamberger"></div>
-    </div>  */}
+    
 
   
     </nav>

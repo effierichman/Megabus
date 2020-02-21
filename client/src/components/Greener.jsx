@@ -1,7 +1,5 @@
 import React from 'react'
-import { Link, Route, withRouter } from 'react-router-dom'
-import image from '../image/chuck3x.png'
-import HelpButton from './helpButton'
+import HelpButton from './HelpButton'
 import greenImage from '../image/greener.png'
 
 

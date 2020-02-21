@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link, Route, withRouter } from 'react-router-dom'
 import stupidcat from '../image/StupidCat.png'
 import proud from '../image/Proud.png'
 

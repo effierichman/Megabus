@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ReactMapGL, { Marker, Popup } from 'react-map-gl'
-// import { findByLabelText } from '@testing-library/react';
-import { Route, Link, Switch } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import image from '../image/yellow-arrow3x.png'
 import bosnyc from '../image/Boston-NYC.png'
 import bostrent from '../image/Boston-Trenton.png'
@@ -19,8 +18,7 @@ import nyctrent from '../image/NYC-Trenton.png'
 
 
 const Map = (props) => {
-    // const { stations, userLoc } = props
-    // console.log(userLoc && userLoc.coords.latitude)
+
 
     const mapDisplay = () => {
 
@@ -133,13 +131,7 @@ const Map = (props) => {
     }
 
     console.log(props.location.state.selection.trip)
-    // const [viewport, setViewport] = useState({
-    //     latitude: 40.7468733,
-    //     longitude: -73.9947449,
-    //     zoom: 6,
-    //     width: '90vw',
-    //     height: '50vh'
-    // })
+    
 
     return (
         <div>
