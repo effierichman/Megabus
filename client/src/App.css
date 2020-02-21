@@ -74,6 +74,7 @@
 select {
   display: flex;
   justify-content: center;
+  background-color: white;
 
 }
 
@@ -196,7 +197,7 @@ select {
     font-family: nexa;
     padding-left: 10px;
     font-size: 16px;
-    color: #979797
+    color: black
   }
 
   .FROM {
@@ -324,7 +325,7 @@ select {
     color: #7a78ff;
     float: right;
     border: none;
-    padding-top: 15px;
+    padding-top: 8px;
     text-decoration: none;
 }
 
@@ -458,19 +459,18 @@ margin-top: 0px
 
 .departure {
   display: block;
+  margin: auto;
 }
 
 .arrival {
   display: block;
+  margin: auto;
 }
+
 
 .map-detail-container {
   display: flex;
-  width: 200px;
-  object-fit: contain;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-    padding-left: 20px
+
 
 }
 
@@ -512,6 +512,7 @@ margin-top: 0px
 }
 
 .trip-label {
+  padding-top: 10px;
   text-align: center;
   font-family: Nexa;
   font-size: 12px;
@@ -522,7 +523,7 @@ margin-top: 0px
   margin: auto;
   object-fit: contain;
   width: 250px;
-  height: 40px;
+  height: 30px;
   background-color: #f9be2c;
   box-shadow: 3px 2px 4px 0 black;
   color: #011679;
@@ -531,7 +532,7 @@ margin-top: 0px
   margin-left: 20px;
   text-decoration: none;
   text-align: center;
-  padding-top: 20px
+  padding-top: 10px
 }
 
 .button-container {
@@ -539,7 +540,7 @@ margin-top: 0px
   width: 321px;
   object-fit: contain;
   margin: auto;
-  margin-top: 100px;
+  /* margin-top: 50px; */
 }
 
 .triangle {
