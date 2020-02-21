@@ -57,16 +57,23 @@ export default class MyTrips extends Component {
       
        deleteItem(trip) {
         var storedNames = JSON.parse(localStorage.getItem("trip"));
-        var indexToRemove = 1;
+        var tripToRemove = storedNames.find((tripObject,index)=>{
+         return trip.id == tripObject.id
+        });
+        if (tripToRemove !== null ) {
+          let indexToRemove = storedNames.indexOf(tripToRemove)
+          console.log(indexToRemove)
+          storedNames.splice(indexToRemove, 1);
+
+        }
     
-       storedNames.splice(indexToRemove, 1);
 
         localStorage.setItem('trip', JSON.stringify(storedNames));
-        // window.location.reload();
+        window.location.reload();
         // localStorage.removeItem('trip');
 
 
-        console.log(this.state.trips)
+        // console.log(storedNames)
       }
     
      
