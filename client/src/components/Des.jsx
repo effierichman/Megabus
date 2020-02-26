@@ -75,12 +75,13 @@ handleClick = async (trip)=>{
       
     ))   
     
+            //the depInput function, takes the props (the data that is pulled from the api and is being pulled to this component through props) and will dictate on how that data will be displayed.
     const depInput = () => {
-
+            //this is the location of the props given to a variable to be used in the if statements
         const departure_city = this.props.location.state.departure
 
         
-        
+        //this if statement is saying that is the props brought here, which are the departure citites, that because the api data is all lower case, if the city is boston, to display it as Boston and so on...
         if (departure_city === 'boston') {
             return (
                 'Boston'
@@ -101,9 +102,9 @@ handleClick = async (trip)=>{
 
     }
 
-    const desInput = () => {
 
-      
+    //this is the same function as depInput, but for the destination cities
+    const desInput = () => {
 
         const destination_city = this.props.location.state.destination
         
@@ -126,10 +127,8 @@ handleClick = async (trip)=>{
         } 
     }
 
-
+// like the departure and destination functions, we are taking the data data from props and reformatting it to represent a clearer and more proffestional font. The reason the api has dashes is because we used the data as an end point for the api call, and an endpoint cannot have spaces. So to fix this, we use an if statement to reformat what the data is displayed as.
     const dateInput = () => {
-
-      
 
         const date = this.props.location.state.date
         
