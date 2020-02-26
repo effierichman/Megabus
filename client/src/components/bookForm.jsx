@@ -1,6 +1,8 @@
 import React from 'react'
 import HelpButton from './HelpButton'
-
+//this component is code for the input form to book a trip. The help button is imported at the top of the page 
+//there is an on change on each select that calls the changeForm function. There is a onClick on the submit button
+//that calls the handleSubmit function 
 export default function BookForm(props) {
 
   function changeForm(e){
@@ -14,7 +16,6 @@ export default function BookForm(props) {
 return (
   <div>
   <HelpButton />
-
         <form>
           <h2 className="Book-Now">Book Now!</h2>
           <label className="FROM">FROM</label>

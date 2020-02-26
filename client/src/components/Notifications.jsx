@@ -1,6 +1,7 @@
 import React from 'react'
-import { Link, Route, withRouter } from 'react-router-dom'
 
+//non functional route based on UX wireframes
+// This promps the user to input information for a notification
 function Notification() {
     return(
 

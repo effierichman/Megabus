@@ -3,7 +3,7 @@ import HelpButton from './HelpButton'
 import greenImage from '../image/greener.png'
 
 
-
+// UX wireframe with static data about greener travel
 function Greener() {
     return (
        <div>
