@@ -15,7 +15,8 @@ this.state = {
     selection: ''
 }
 }
-
+// on the component load there is an API call inputing departure, destination, date as slugs to return appropriate data
+// setting state "trip" to response 
     async componentDidMount() {
         try {
             const response = await axios(`http://localhost:3000/trips/${this.props.location.state.departure}/${this.props.location.state.destination}/${this.props.location.state.date}`)
@@ -25,7 +26,7 @@ this.state = {
         }
     }
 
-
+//setting handleClick trip to localStorage
 local =(trip) => {
 
     if(localStorage) {
@@ -47,7 +48,7 @@ local =(trip) => {
 
     }
 }
-
+ //function called when book button is clicked
 handleClick = async (trip)=>{
     this.local(trip)
     this.setState({
@@ -56,7 +57,9 @@ handleClick = async (trip)=>{
     })}
         
     render() {
-        
+     // mapping over trip data. if "book" button is clicked calls handleClick function and passes the trip data
+    //  and redirects to the /my-trips route
+
         if(this.state.submitted){
             return <Redirect to={{pathname:'/my-trips', state: this.state}} />
         }

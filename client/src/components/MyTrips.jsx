@@ -41,6 +41,8 @@ export default class MyTrips extends Component {
           
       }
       
+      //delete selected trip from local storage when the cancel trip button is clicked 
+
        deleteItem(trip) {
         var storedNames = JSON.parse(localStorage.getItem("trip"));
         var tripToRemove = storedNames.find((tripObject,index)=>{
@@ -63,7 +65,6 @@ export default class MyTrips extends Component {
 
 
     
-
 render () {
  
 
