@@ -1,5 +1,6 @@
 import React from 'react'
 
+//non functioning Questions component based on UX designs. 
 function FAQ (){
     return(
     <div className="faq-container">

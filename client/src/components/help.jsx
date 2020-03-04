@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-
+//component that renders after the help button is clicked
+// 4 buttons options each linking to correct page
 function App() {
     return (
         

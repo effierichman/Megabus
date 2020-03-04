@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import axios from 'axios'
-// import { getTripData, getAllTrips } from '../api-helper'
-import BookForm from './bookForm'
+import BookForm from './BookForm'
 import { Redirect } from 'react-router-dom'
 
 class BookTrips extends Component {
@@ -18,7 +16,6 @@ class BookTrips extends Component {
     }
   }
 
-  // create handlechange= send state info down to bookform.js which will send it back up 
 handleChange = (e) =>{
     const key = e.target.id
     const value = e.target.value
@@ -31,18 +28,15 @@ handleChange = (e) =>{
 
 
  handleClick = async ()=>{
-    console.log("test")
     this.setState({
         submitted: true
     })
-  
+
 }
 
  
   render() {
-      console.log(this.state)
-      console.log(this.state.submitted)
-  
+
     if(this.state.submitted){
         return <Redirect to={{pathname:'/des', state: this.state}} />
     }

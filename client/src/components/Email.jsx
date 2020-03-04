@@ -1,13 +1,13 @@
 import React from 'react'
-import { Link, Route, withRouter } from 'react-router-dom'
-import image from '../image/chuck3x.png'
-import HelpButton from './helpButton'
+import HelpButton from './HelpButton'
 
+// non functioning email component that displays UX wireframe for emailing  
 
 function Email() {
     return (
         <div>
             <HelpButton />
+
         <form>
             <input className="comment" placeholder="First Last" />
             <input className="comment" placeholder="firstlast@me.com"  />
